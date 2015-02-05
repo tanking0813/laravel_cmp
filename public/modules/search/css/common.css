@@ -1,0 +1,110 @@
+/**
+ * 搜索查询样式表
+ * 创建人：王茜 
+ * 创建时间：2014-12-23(商标查询)
+ 			 2015-01-21(商标监测)
+ */
+
+/*===============================================================================
+ *********************************   搜索查询模块       *******************************
+ ===============================================================================*/
+
+
+
+/** ----------------------------------------公共样式--------------------------------------------------**/
+html{ margin:0; padding:0;}
+ol,ul,dl,li,dt,dd{ list-style: none;}/*news*/
+/*.wrap{ width: 100%; background: #fff; font-family: "微软雅黑"; font-size: 12px;}
+h1,h2,h3,h4,h5,h6{ margin: 0;}
+.mt0{ margin-top: 0;}
+.mb0{ margin-bottom: 0!important;}
+.ml0{ margin-left: 0;}
+.mb10{ margin-bottom: 10px;}
+.ml10{ margin-left: 10px;}
+.mr30{ margin-right: 30px!important;}
+.ml15{ margin-left: 15px;}
+.mr15{ margin-right: 15px;}
+.mh30{ margin: 0 30px;}/*news
+.ma0{ margin: 0;}
+.pa0{ padding: 0;}
+.pl0{ padding-left: 0;}
+.pr0{ padding-right: 0;}
+.pt10{ padding-top: 10px;}
+a:hover{ text-decoration: none;}
+.form-control,.btn,.dropdown-menu,.modal-content,.input-group-addon{ border-radius: 0;}
+input[type="checkbox"]{ margin: 2px 0 0;}
+.list-inline > li{ padding-left: 10px; padding-right: 0; }
+.navbar,.dropdown-menu{ border: 0; }
+/*.modal-open .modal { overflow: hidden; position: absolute;}
+.modal-backdrop { position: fixed; top: 0; right: 0; bottom: 0; left: 0;}
+.btn:hover, .btn:focus, .btn.focus{ color: #fff; box-shadow: none;}
+/*news
+.del{ color: #0B78B8; cursor: pointer; font-size: 22px;}
+*/
+/*验证*/
+label.valid { width: 24px; height: 24px; background: url("../images/quiry/valid.png") center center no-repeat; display: inline-block; text-indent: -9999px;}
+label.error { font-weight: bold; color: red; padding: 2px 8px; margin-top: 2px;}
+.form-inline label.error{ position:absolute; top:34px; width:100%; left:0; text-align:left;}
+.form-inline .form-group{ position:relative;}
+
+.disclaimer-box,.loginremind-box,.registerLogin-box { top: 100px; z-index: 99999;}
+/*---------------免责声明--------------*/
+.disclaimer-box .modal-dialog,.disclaimer-box .modal-content{ width: 534px; font-size: 12px; line-height: 2em;}
+.disclaimer-box .modal-header,.sR-record{ text-align: center;}
+.disclaimer-box button{ width: 86px!important; height: 30px!important; margin: 0 auto!important; display: block;}
+
+/*---------------登录提醒--------------*/
+.loginremind-box .modal-dialog,.loginremind-box .modal-content{ width: 460px!important;}
+.loginremind-box .modal-body{ text-align: center; padding-top: 32px;}
+.loginremind-box .modal-body button{ width: 110px; height: 32px; background: #0b76b8; color: #fff; margin: 20px 12px;}
+
+/*---------------登录表单--------------*/
+.registerLogin-box .modal-dialog,.registerLogin-box .modal-content{ width: 334px; font-size: 12px;}
+.registerLogin-box .input-group input{ height: 38px; width: 204px; font-size: 12px; margin-top:-2px\9!important; margin-left: 6px\9!important;}
+.registerLogin-box .modal-content,.jc-an-right .jc-i-table td,.jc-al-box .jc-i-table td{ vertical-align: middle;}
+.registerLogin-box .input-group-addon{ height: 38px; width: 36px;}
+.registerLogin-box .message-img{ background: url("../images/nav_icons.png") 8px -170px no-repeat;}
+.registerLogin-box .password-img{ background: url("../images/nav_icons.png") 8px -205px no-repeat;}
+.registerLogin-box .authcode-img{ background: url("../images/nav_icons.png") 8px -242px no-repeat;}
+.registerLogin-box .authcode-btn{ width: 76px!important; height: 30px!important; font-size: 12px; position: absolute; margin: 4px 0 4px -80px!important; z-index: 9999;}
+.registerLogin-box .hint{ background: #666; filter: alpha(opacity=80); display: none; opacity: 0.8; position: absolute; top: -36px; left: -17px; z-index: 9999; height: 32px; width: 306px; line-height: 32px; text-align: center;}
+.registerLogin-box .hint span{ height: 0; width: 0; display: block; border-width: 9px; overflow: visible; border-color: #666 transparent transparent transparent; border-style: solid dashed dashed dashed; position: absolute; bottom: -18px; right: 66px;}
+.registerLogin-box .checkbox input{ color: #a7a7a7;}
+.registerLogin-box button.btn-login,.disclaimer-box button,.registerLogin-box .authcode-btn{ width: 242px; height: 36px; background: #0b76b8; color: #fff; margin-top: 6px; margin-bottom: 20px;}
+.registerLogin-box form{ width: 240px; margin: 18px auto 20px auto; text-align: center;}
+.btn-title ul li.on button,.paging .paging-list li a:hover,.paging .pform .go:hover{ background: #0b76b8; color: #fff;}
+
+/* -------------弹出框-----------*/
+.modal-box .modal-content, .registerLogin-box .modal-content,.disclaimer-box .modal-content,.loginremind-box .modal-content,.jc-stateWarning-box .modal-content,.jc-indent-box .modal-content{ border: solid 3px #ccc;}
+.modal-box h4,.registerLogin-box h4,.disclaimer-box h4,.loginremind-box h4,.jc-indent-box h4,.jc-mystate-Modal .modal-header h4{ font-size:16px!important; line-height: 36px;}
+.modal-box .modal-header,.registerLogin-box .modal-header,.disclaimer-box .modal-header,.loginremind-box .modal-header,.modal-content .modal-header{ height: 36px; line-height: 36px; color: #fff; background: #0b77b8; padding: 0 15px;}
+.modal-box .modal-header .close,.registerLogin-box .modal-header .close,.loginremind-box .modal-header .close,.jc-indent-box .modal-header .close,.jc-mystate-Modal .modal-header .close{ opacity: 1; filter:alpha(opacity=1); line-height: 36px; text-shadow: 0; }
+.modal-box .modal-dialog,.modal-box .modal-content{ width: 954px;}
+.modal-body .detail-box{ height: 150px; overflow:scroll;/*news*/}
+.modal-body .hot-sort-box{ margin-bottom: 26px; border-top: dashed 1px #ececec; border-bottom: dashed 1px #ececec;}
+.modal-body .hot-sort-box .checkbox{ padding: 0 36px;}
+.modal-body .hot-sort-box label{ width: 146px; margin: 8px 10px;}
+.modal-box label{ width: 66px; font-size: 12px; color: #444; margin: 8px 14px;}
+.modal-box input{ margin-right: 6px; margin-top: 0; margin-top:-2px\9!important; vertical-align: middle;}
+.modal-box button.btn-ensure,.jc-stateWarning-box .modal-body button{ width: 110px; height: 32px; display: block; font-size: 14px; line-height: 18px; background: #0b76b8; color: #fff; margin:36px auto 40px auto;}
+
+/*---------------登录成功后下拉菜单--------------*/
+.login-success button{ background: none; font-size: 12px;}
+.login-success button:hover,.login-success button:focus{ color: #666;}
+.login-success .btn .caret{ margin-left: 6px;}
+.login-success ul.dropdown-menu{ background: #eaeaea; right:15px; left: auto!important; padding: 10px; min-width: 140px;}
+.login-success ul li{ font-size: 12px; padding: 0 0 0 25px; line-height: 32px;}
+.login-success ul li i{ font-size: 18px; color: #0b76b8;}
+.login-success ul li a{ display: inline-block;}
+.login-success ul li a:hover{ background: none;}
+
+
+/* -------------分页效果-----------*/
+.paging{ text-align: center; padding-bottom: 40px;}
+.paging .paging-list{ text-align: center; height: 23px; line-height: 23px;}
+.paging .paging-list li,.skip ul li{ padding-left: 0;}
+.paging .paging-list li a,.paging .pform .go{ border: solid 1px #cfcfcf; padding: 2px 7px; color: #666;}
+.paging .paging-list li a:hover,.paging .pform .go:hover{ cursor: pointer;}
+.paging .paging-list .pform input{ width: 36px; height: 23px; margin-top: -2px\9; text-align: center; vertical-align: middle\9;}
+.skip{ padding-bottom: 40px;}
+.skip ul li{ height: auto; border-bottom: none;}

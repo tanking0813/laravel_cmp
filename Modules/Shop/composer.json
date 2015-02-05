@@ -1,0 +1,18 @@
+{
+	"name": "pingpong-modules/shop",
+	"description": "",
+	"authors": [
+		{
+			"name": "Pingpong Labs",
+			"email": "pingpong.labs@gmail.com"
+		}
+	],
+	"autoload": {
+		"classmap": [
+			"Modules/Shop/helpers"
+		],
+		"psr-4": {
+			"Modules\\Shop\\": ""
+		}
+	}
+}

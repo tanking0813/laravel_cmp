@@ -1,0 +1,3801 @@
+<?php
+
+class CategorySeeder extends Seeder {
+
+	/**
+	 * Run the database seeds.
+	 *
+	 * @return void
+	 */
+	public function run()
+	{	 
+		DB::table('cateclass')->insert([
+
+		[ 
+	"id"=>1,
+	"pid"=>0,
+	"name"=>"化学原料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>2,
+	"pid"=>0,
+	"name"=>"颜料油漆",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>3,
+	"pid"=>0,
+	"name"=>"日化用品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>4,
+	"pid"=>0,
+	"name"=>"燃料油脂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>5,
+	"pid"=>0,
+	"name"=>"医用药品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>6,
+	"pid"=>0,
+	"name"=>"金属材料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>7,
+	"pid"=>0,
+	"name"=>"机械设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>8,
+	"pid"=>0,
+	"name"=>"手工器械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>9,
+	"pid"=>0,
+	"name"=>"科学仪器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>10,
+	"pid"=>0,
+	"name"=>"医疗器械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>11,
+	"pid"=>0,
+	"name"=>"家用电器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>12,
+	"pid"=>0,
+	"name"=>"运输工具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>13,
+	"pid"=>0,
+	"name"=>"军火烟火",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>14,
+	"pid"=>0,
+	"name"=>"珠宝钟表",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>15,
+	"pid"=>0,
+	"name"=>"音乐器材",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>16,
+	"pid"=>0,
+	"name"=>"办公印刷",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>17,
+	"pid"=>0,
+	"name"=>"橡胶制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>18,
+	"pid"=>0,
+	"name"=>"皮革皮具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>19,
+	"pid"=>0,
+	"name"=>"建筑金属",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>20,
+	"pid"=>0,
+	"name"=>"家具塑料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>21,
+	"pid"=>0,
+	"name"=>"厨房陶瓷",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>22,
+	"pid"=>0,
+	"name"=>"绳网袋篷",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>23,
+	"pid"=>0,
+	"name"=>"纺织纱线",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>24,
+	"pid"=>0,
+	"name"=>"布料床单",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>25,
+	"pid"=>0,
+	"name"=>"服装鞋帽",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>26,
+	"pid"=>0,
+	"name"=>"花边配饰",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>27,
+	"pid"=>0,
+	"name"=>"地毯席垫",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>28,
+	"pid"=>0,
+	"name"=>"健身娱乐",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>29,
+	"pid"=>0,
+	"name"=>"肉食蜜饯",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>30,
+	"pid"=>0,
+	"name"=>"小食配料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>31,
+	"pid"=>0,
+	"name"=>"饲料花木",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>32,
+	"pid"=>0,
+	"name"=>"啤酒饮料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>33,
+	"pid"=>0,
+	"name"=>"酒精饮料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>34,
+	"pid"=>0,
+	"name"=>"烟草烟具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>35,
+	"pid"=>0,
+	"name"=>"广告销售",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>36,
+	"pid"=>0,
+	"name"=>"金融物管",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>37,
+	"pid"=>0,
+	"name"=>"建筑修理",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>38,
+	"pid"=>0,
+	"name"=>"通讯服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>39,
+	"pid"=>0,
+	"name"=>"运输贮藏",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>40,
+	"pid"=>0,
+	"name"=>"材料加工",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>41,
+	"pid"=>0,
+	"name"=>"教育娱乐",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>42,
+	"pid"=>0,
+	"name"=>"技术服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>43,
+	"pid"=>0,
+	"name"=>"餐饮住宿",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>44,
+	"pid"=>0,
+	"name"=>"医疗园艺",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>45,
+	"pid"=>0,
+	"name"=>"社会服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>46,
+	"pid"=>25,
+	"name"=>"衣物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>47,
+	"pid"=>25,
+	"name"=>"鞋",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>48,
+	"pid"=>25,
+	"name"=>"帽",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>49,
+	"pid"=>25,
+	"name"=>"袜",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>50,
+	"pid"=>25,
+	"name"=>"特殊用鞋",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>51,
+	"pid"=>25,
+	"name"=>"婴儿纺织用品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>52,
+	"pid"=>33,
+	"name"=>"含酒精的饮料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>53,
+	"pid"=>1,
+	"name"=>"工业气体，单质",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>54,
+	"pid"=>1,
+	"name"=>"用于工业、科学、农业、园艺、林业的工业化工原料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>55,
+	"pid"=>1,
+	"name"=>"放射性元素及其化学品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>56,
+	"pid"=>1,
+	"name"=>"用于工业、科学的化学品、化学制剂，不属于其他类别的产品用的化学制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>57,
+	"pid"=>1,
+	"name"=>"用于农业、园艺、林业的化学品、化学制剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>58,
+	"pid"=>1,
+	"name"=>"化学试剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>59,
+	"pid"=>1,
+	"name"=>"摄影用化学用品及材料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>60,
+	"pid"=>1,
+	"name"=>"未加工的人造合成树脂，未加工塑料物质（不包括未加工的天然树脂）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>61,
+	"pid"=>1,
+	"name"=>"肥料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>62,
+	"pid"=>1,
+	"name"=>"灭火用合成物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>63,
+	"pid"=>1,
+	"name"=>"淬火用化学制剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>64,
+	"pid"=>1,
+	"name"=>"焊接用化学制剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>65,
+	"pid"=>1,
+	"name"=>"食品用化学品（不包括食品用防腐盐）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>66,
+	"pid"=>1,
+	"name"=>"鞣料及皮革用化学品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>67,
+	"pid"=>1,
+	"name"=>"工业用粘合剂和胶（不包括纸用粘合剂）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>68,
+	"pid"=>1,
+	"name"=>"纸浆",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>69,
+	"pid"=>2,
+	"name"=>"染料，媒染剂（不包括食用）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>70,
+	"pid"=>2,
+	"name"=>"颜料（不包括食用、绝缘用），画家、装饰家、印刷商和艺术家用金属箔及金属粉",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>71,
+	"pid"=>2,
+	"name"=>"食品着色剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>72,
+	"pid"=>2,
+	"name"=>"油墨",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>73,
+	"pid"=>2,
+	"name"=>"涂料，油漆及附料（不包括绝缘漆）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>74,
+	"pid"=>2,
+	"name"=>"防锈剂，木材防腐剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>75,
+	"pid"=>2,
+	"name"=>"未加工的天然树脂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>76,
+	"pid"=>3,
+	"name"=>"肥皂，香皂及其他人用洗洁物品，洗衣用漂白剂及其他物料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>77,
+	"pid"=>3,
+	"name"=>"清洁、去渍用制剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>78,
+	"pid"=>3,
+	"name"=>"抛光、擦亮制剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>79,
+	"pid"=>3,
+	"name"=>"研磨用材料及其制剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>80,
+	"pid"=>3,
+	"name"=>"香料，香精油",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>81,
+	"pid"=>3,
+	"name"=>"化妆品（不包括动物用化妆品）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>82,
+	"pid"=>3,
+	"name"=>"牙膏，洗牙用制剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>83,
+	"pid"=>3,
+	"name"=>"熏料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>84,
+	"pid"=>3,
+	"name"=>"动物用化妆品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>85,
+	"pid"=>3,
+	"name"=>"室内芳香剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>86,
+	"pid"=>4,
+	"name"=>"工业用油及油脂，润滑油，润滑剂（不包括燃料用油）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>87,
+	"pid"=>4,
+	"name"=>"液体、气体燃料和照明燃料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>88,
+	"pid"=>4,
+	"name"=>"固体燃料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>89,
+	"pid"=>4,
+	"name"=>"工业用蜡",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>90,
+	"pid"=>4,
+	"name"=>"照明用蜡烛和灯芯",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>91,
+	"pid"=>4,
+	"name"=>"吸收、润湿和粘结灰尘用合成物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>92,
+	"pid"=>4,
+	"name"=>"能源",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>93,
+	"pid"=>5,
+	"name"=>"药品，消毒剂，中药药材，药酒",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>94,
+	"pid"=>5,
+	"name"=>"医用营养品，人用膳食补充剂，婴儿食品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>95,
+	"pid"=>5,
+	"name"=>"净化制剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>96,
+	"pid"=>5,
+	"name"=>"兽药，动物用膳食补充剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>97,
+	"pid"=>5,
+	"name"=>"杀虫剂，除莠剂，农药",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>98,
+	"pid"=>5,
+	"name"=>"卫生用品，绷敷材料，医用保健袋",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>99,
+	"pid"=>5,
+	"name"=>"填塞牙孔用料，牙科用蜡",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>100,
+	"pid"=>5,
+	"name"=>"单一商品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>101,
+	"pid"=>6,
+	"name"=>"普通金属及其合金、板、各种型材（不包括焊接及铁路用金属材料）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>102,
+	"pid"=>6,
+	"name"=>"普通金属管及其配件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>103,
+	"pid"=>6,
+	"name"=>"金属建筑材料，可移动金属建筑物（不包括建筑小五金）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>104,
+	"pid"=>6,
+	"name"=>"铁路用金属材料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>105,
+	"pid"=>6,
+	"name"=>"非电气用缆索和金属线、网、带",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>106,
+	"pid"=>6,
+	"name"=>"缆绳用非电气金属附件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>107,
+	"pid"=>6,
+	"name"=>"钉及标准紧固件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>108,
+	"pid"=>6,
+	"name"=>"家具及门窗的金属附件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>109,
+	"pid"=>6,
+	"name"=>"日用五金器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>110,
+	"pid"=>6,
+	"name"=>"非电子锁",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>111,
+	"pid"=>6,
+	"name"=>"保险箱柜，金属柜",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>112,
+	"pid"=>6,
+	"name"=>"金属器具，金属硬件（非机器零件）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>113,
+	"pid"=>6,
+	"name"=>"金属容器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>114,
+	"pid"=>6,
+	"name"=>"金属标牌",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>115,
+	"pid"=>6,
+	"name"=>"动物用金属制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>116,
+	"pid"=>6,
+	"name"=>"焊接用金属材料（不包括塑料焊丝）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>117,
+	"pid"=>6,
+	"name"=>"锚，停船用金属浮动船坞，金属下锚桩",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>118,
+	"pid"=>6,
+	"name"=>"手铐，医院用的金属身份证明手环",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>119,
+	"pid"=>6,
+	"name"=>"（测气象或风力的）金属浆叶，金属风标",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>120,
+	"pid"=>6,
+	"name"=>"金属植物保护器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>121,
+	"pid"=>6,
+	"name"=>"捕野兽陷阱",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>122,
+	"pid"=>6,
+	"name"=>"普通金属艺术品，青铜（艺术品）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>123,
+	"pid"=>6,
+	"name"=>"矿石，矿砂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>124,
+	"pid"=>6,
+	"name"=>"金属棺（埋葬用），金属棺材扣件，棺材用金属器材",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>125,
+	"pid"=>7,
+	"name"=>"农业用机械及部件（不包括小农具）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>126,
+	"pid"=>7,
+	"name"=>"渔牧业用机械及器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>127,
+	"pid"=>7,
+	"name"=>"伐木、锯木、木材加工及火柴生产用机械及器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>128,
+	"pid"=>7,
+	"name"=>"造纸及加工纸制品工业用机械及器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>129,
+	"pid"=>7,
+	"name"=>"印刷工业用机械及器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>130,
+	"pid"=>7,
+	"name"=>"纤维加工及纺织、针织工业用机械及部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>131,
+	"pid"=>7,
+	"name"=>"印染工业用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>132,
+	"pid"=>7,
+	"name"=>"制茶工业用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>133,
+	"pid"=>7,
+	"name"=>"食品业用机械及部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>134,
+	"pid"=>7,
+	"name"=>"酿造、饮料工业用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>135,
+	"pid"=>7,
+	"name"=>"烟草工业用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>136,
+	"pid"=>7,
+	"name"=>"皮革工业用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>137,
+	"pid"=>7,
+	"name"=>"缝纫、制鞋工业用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>138,
+	"pid"=>7,
+	"name"=>"自行车工业用设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>139,
+	"pid"=>7,
+	"name"=>"陶瓷、砖、瓦制造机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>140,
+	"pid"=>7,
+	"name"=>"雕刻机",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>141,
+	"pid"=>7,
+	"name"=>"制电池机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>142,
+	"pid"=>7,
+	"name"=>"日用杂品加工机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>143,
+	"pid"=>7,
+	"name"=>"制搪瓷机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>144,
+	"pid"=>7,
+	"name"=>"制灯泡机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>145,
+	"pid"=>7,
+	"name"=>"包装机械（不包括成套设备专用包装机械）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>146,
+	"pid"=>7,
+	"name"=>"民用煤加工机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>147,
+	"pid"=>7,
+	"name"=>"厨房家用器具（不包括烹调、电气加热设备及厨房手工具）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>148,
+	"pid"=>7,
+	"name"=>"洗衣机",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>149,
+	"pid"=>7,
+	"name"=>"制药工业用机械及部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>150,
+	"pid"=>7,
+	"name"=>"橡胶、塑料工业机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>151,
+	"pid"=>7,
+	"name"=>"玻璃工业用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>152,
+	"pid"=>7,
+	"name"=>"化肥设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>153,
+	"pid"=>7,
+	"name"=>"其他化学工业用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>154,
+	"pid"=>7,
+	"name"=>"地质勘探、采矿、选矿用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>155,
+	"pid"=>7,
+	"name"=>"冶炼工业用设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>156,
+	"pid"=>7,
+	"name"=>"石油开采、精炼工业用设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>157,
+	"pid"=>7,
+	"name"=>"建筑、铁道、土木工程用机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>158,
+	"pid"=>7,
+	"name"=>"起重运输机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>159,
+	"pid"=>7,
+	"name"=>"锻压设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>160,
+	"pid"=>7,
+	"name"=>"铸造机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>161,
+	"pid"=>7,
+	"name"=>"蒸气动力设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>162,
+	"pid"=>7,
+	"name"=>"内燃动力设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>163,
+	"pid"=>7,
+	"name"=>"风力、水力动力设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>164,
+	"pid"=>7,
+	"name"=>"制办公用针钉机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>165,
+	"pid"=>7,
+	"name"=>"制钮扣拉链机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>166,
+	"pid"=>7,
+	"name"=>"金属切削机床， 切削工具和其他金属加工机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>167,
+	"pid"=>7,
+	"name"=>"非手工操作的手工具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>168,
+	"pid"=>7,
+	"name"=>"静电、电子工业用设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>169,
+	"pid"=>7,
+	"name"=>"光学工业用设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>170,
+	"pid"=>7,
+	"name"=>"气体分离设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>171,
+	"pid"=>7,
+	"name"=>"喷漆机具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>172,
+	"pid"=>7,
+	"name"=>"发电机、非陆地车辆用马达和引擎及其零部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>173,
+	"pid"=>7,
+	"name"=>"泵，阀，气体压缩机，风机，液压元件，气动元件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>174,
+	"pid"=>7,
+	"name"=>"机器传动用联轴节，传动带及其他机器零部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>175,
+	"pid"=>7,
+	"name"=>"焊接机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>176,
+	"pid"=>7,
+	"name"=>"清洁、废物处理机械",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>177,
+	"pid"=>7,
+	"name"=>"单一商品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>178,
+	"pid"=>7,
+	"name"=>"电镀设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>179,
+	"pid"=>25,
+	"name"=>"特种运动服装",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>180,
+	"pid"=>25,
+	"name"=>"不透水服装",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>181,
+	"pid"=>25,
+	"name"=>"戏装",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>182,
+	"pid"=>25,
+	"name"=>"手套（不包括特种手套）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>183,
+	"pid"=>25,
+	"name"=>"领带，围巾，披巾，面纱",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>184,
+	"pid"=>25,
+	"name"=>"腰带，服装带",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>185,
+	"pid"=>25,
+	"name"=>"单一商品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>186,
+	"pid"=>8,
+	"name"=>"手动研磨器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>187,
+	"pid"=>8,
+	"name"=>"小农具（不包括农业、园艺用刀剪）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>188,
+	"pid"=>8,
+	"name"=>"林业、园艺用手工具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>189,
+	"pid"=>8,
+	"name"=>"畜牧业用手工具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>190,
+	"pid"=>8,
+	"name"=>"渔业用手工具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>191,
+	"pid"=>8,
+	"name"=>"理发工具，修指甲刀",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>192,
+	"pid"=>8,
+	"name"=>"非动力手工具（不包括刀、剪）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>193,
+	"pid"=>8,
+	"name"=>"非动力手工器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>194,
+	"pid"=>8,
+	"name"=>"专业用手工具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>195,
+	"pid"=>8,
+	"name"=>"刀剪（不包括机械刀片，文具刀）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>196,
+	"pid"=>8,
+	"name"=>"除火器外的随身武器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>197,
+	"pid"=>8,
+	"name"=>"餐具刀、叉、匙",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>198,
+	"pid"=>9,
+	"name"=>"电子计算机及其外部设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>199,
+	"pid"=>9,
+	"name"=>"记录、自动售货机和其他记数检测器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>200,
+	"pid"=>9,
+	"name"=>"其他办公用机械（不包括打字机、誉写机、油印机）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>201,
+	"pid"=>9,
+	"name"=>"衡器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>202,
+	"pid"=>9,
+	"name"=>"量具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>203,
+	"pid"=>9,
+	"name"=>"信号器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>204,
+	"pid"=>9,
+	"name"=>"通讯导航设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>205,
+	"pid"=>9,
+	"name"=>"音像设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>206,
+	"pid"=>9,
+	"name"=>"摄影、电影用具及仪器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>207,
+	"pid"=>9,
+	"name"=>"测量仪器仪表，实验室用器具，电测量仪器，科学仪器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>208,
+	"pid"=>9,
+	"name"=>"光学仪器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>209,
+	"pid"=>9,
+	"name"=>"光电传输材料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>210,
+	"pid"=>9,
+	"name"=>"电器用晶体及碳素材料，电子、电气通用元件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>211,
+	"pid"=>9,
+	"name"=>"电器成套设备及控制装置",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>212,
+	"pid"=>9,
+	"name"=>"电解装置",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>213,
+	"pid"=>9,
+	"name"=>"灭火器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>214,
+	"pid"=>9,
+	"name"=>"电弧切割、焊接设备及器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>215,
+	"pid"=>9,
+	"name"=>"工业用X光机械设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>216,
+	"pid"=>9,
+	"name"=>"安全救护器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>217,
+	"pid"=>9,
+	"name"=>"警报装置，电铃",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>218,
+	"pid"=>9,
+	"name"=>"眼镜及附件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>219,
+	"pid"=>9,
+	"name"=>"电池，充电器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>220,
+	"pid"=>9,
+	"name"=>"电影片，已曝光材料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>221,
+	"pid"=>9,
+	"name"=>"其他",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>222,
+	"pid"=>10,
+	"name"=>"外科、医疗和兽医用仪器、器械、设备，不包括电子、核子、电疗、医疗用Ｘ光设备、器械及仪器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>223,
+	"pid"=>10,
+	"name"=>"牙科设备及器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>224,
+	"pid"=>10,
+	"name"=>"医疗用电、核子、电疗和X光设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>225,
+	"pid"=>10,
+	"name"=>"医疗用辅助器具，设备和用品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>226,
+	"pid"=>10,
+	"name"=>"奶嘴，奶瓶",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>227,
+	"pid"=>10,
+	"name"=>"性用品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>228,
+	"pid"=>10,
+	"name"=>"假肢，假发和假器官",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>229,
+	"pid"=>10,
+	"name"=>"矫形用品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>230,
+	"pid"=>10,
+	"name"=>"缝合用材料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>231,
+	"pid"=>11,
+	"name"=>"照明用设备、器具（不包括汽灯、油灯）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>232,
+	"pid"=>11,
+	"name"=>"喷焊灯",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>233,
+	"pid"=>11,
+	"name"=>"汽灯，油灯",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>234,
+	"pid"=>11,
+	"name"=>"烹调及民用电气加热设备（不包括厨房用手工用具，食品加工机器）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>235,
+	"pid"=>11,
+	"name"=>"制冷、冷藏设备（不包括冷藏车）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>236,
+	"pid"=>11,
+	"name"=>"干燥、通风、空调设备（包括冷暖房设备）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>237,
+	"pid"=>11,
+	"name"=>"加温、蒸汽设备（包括工业用炉、锅炉，不包括机车锅炉、锅驼机锅炉、蒸汽机锅炉）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>238,
+	"pid"=>11,
+	"name"=>"水暖管件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>239,
+	"pid"=>11,
+	"name"=>"卫生设备（不包括盥洗室用具）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>240,
+	"pid"=>11,
+	"name"=>"消毒和净化设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>241,
+	"pid"=>11,
+	"name"=>"小型取暖器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>242,
+	"pid"=>11,
+	"name"=>"不属于别类的打火器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>243,
+	"pid"=>11,
+	"name"=>"核能反应设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>244,
+	"pid"=>12,
+	"name"=>"火车及其零部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>245,
+	"pid"=>12,
+	"name"=>"汽车、电车、摩托车及其零部件（不包括轮胎）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>246,
+	"pid"=>12,
+	"name"=>"摩托车其零部件（不包括轮胎）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>247,
+	"pid"=>12,
+	"name"=>"自行车、三轮车及其零部件（不包括轮胎）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>248,
+	"pid"=>12,
+	"name"=>"缆车，架空运输设备",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>249,
+	"pid"=>12,
+	"name"=>"轮椅，手推车，儿童推车",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>250,
+	"pid"=>12,
+	"name"=>"畜力车辆",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>251,
+	"pid"=>12,
+	"name"=>"轮胎及轮胎修理工具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>252,
+	"pid"=>12,
+	"name"=>"空用运载工具（不包括飞机轮胎）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>253,
+	"pid"=>12,
+	"name"=>"水用运载工具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>254,
+	"pid"=>12,
+	"name"=>"运载工具零部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>255,
+	"pid"=>13,
+	"name"=>"火器，军火及子弹",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>256,
+	"pid"=>13,
+	"name"=>"爆炸物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>257,
+	"pid"=>13,
+	"name"=>"烟火，爆竹",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>258,
+	"pid"=>13,
+	"name"=>"个人防护用喷雾",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>259,
+	"pid"=>14,
+	"name"=>"贵重金属及其合金",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>260,
+	"pid"=>14,
+	"name"=>"贵重金属盒",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>261,
+	"pid"=>14,
+	"name"=>"珠宝，首饰，宝石及贵重金属制纪念品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>262,
+	"pid"=>14,
+	"name"=>"钟，表，计时器及其零部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>263,
+	"pid"=>15,
+	"name"=>"乐器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>264,
+	"pid"=>15,
+	"name"=>"乐器辅助用品及配件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>265,
+	"pid"=>16,
+	"name"=>"工业用纸",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>266,
+	"pid"=>16,
+	"name"=>"技术用纸（不包括绝缘纸）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>267,
+	"pid"=>16,
+	"name"=>"生活用纸",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>268,
+	"pid"=>16,
+	"name"=>"纸板",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>269,
+	"pid"=>16,
+	"name"=>"办公、日用纸制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>270,
+	"pid"=>16,
+	"name"=>"印刷出版物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>271,
+	"pid"=>16,
+	"name"=>"照片，图片，图画",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>272,
+	"pid"=>16,
+	"name"=>"纸牌，扑克牌",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>273,
+	"pid"=>16,
+	"name"=>"纸及不属别类的塑料包装物品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>274,
+	"pid"=>16,
+	"name"=>"办公装订、切削用具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>275,
+	"pid"=>16,
+	"name"=>"办公文具（不包括笔，墨，印，胶水）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>276,
+	"pid"=>16,
+	"name"=>"墨，砚",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>277,
+	"pid"=>16,
+	"name"=>"印章，印油",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>278,
+	"pid"=>16,
+	"name"=>"笔",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>279,
+	"pid"=>16,
+	"name"=>"办公或家庭用胶带或粘合剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>280,
+	"pid"=>16,
+	"name"=>"办公室用绘图仪器，绘画仪器",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>281,
+	"pid"=>16,
+	"name"=>"绘画用具（不包括绘图仪器，笔）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>282,
+	"pid"=>16,
+	"name"=>"打字机、誊写机、油印机及其附件（包括印刷铅字、印版）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>283,
+	"pid"=>16,
+	"name"=>"教学用具（不包括教学实验用仪器）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>284,
+	"pid"=>16,
+	"name"=>"室内模型物（不包括教学用模型标本）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>285,
+	"pid"=>16,
+	"name"=>"单一商品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>286,
+	"pid"=>17,
+	"name"=>"不属别类的橡胶，古塔胶，树胶",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>287,
+	"pid"=>17,
+	"name"=>"非金属密封减震制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>288,
+	"pid"=>17,
+	"name"=>"橡胶，树脂，纤维制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>289,
+	"pid"=>17,
+	"name"=>"软管",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>290,
+	"pid"=>17,
+	"name"=>"保温、隔热、隔音材料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>291,
+	"pid"=>17,
+	"name"=>"绝缘用材料及其制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>292,
+	"pid"=>17,
+	"name"=>"包装、填充用材料（包括橡胶、塑料制品）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>293,
+	"pid"=>17,
+	"name"=>"单一商品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>294,
+	"pid"=>18,
+	"name"=>"皮革和人造皮革，裘皮",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>295,
+	"pid"=>18,
+	"name"=>"不属别类的皮革、人造皮革制品，箱子及旅行袋，日用革制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>296,
+	"pid"=>18,
+	"name"=>"裘皮",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>297,
+	"pid"=>18,
+	"name"=>"雨伞及其部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>298,
+	"pid"=>18,
+	"name"=>"手杖",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>299,
+	"pid"=>18,
+	"name"=>"动物用具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>300,
+	"pid"=>18,
+	"name"=>"肠衣",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>301,
+	"pid"=>19,
+	"name"=>"半成品木材",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>302,
+	"pid"=>19,
+	"name"=>"土，沙，石，石料，灰泥，炉渣等建筑用料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>303,
+	"pid"=>19,
+	"name"=>"石膏",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>304,
+	"pid"=>19,
+	"name"=>"水泥",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>305,
+	"pid"=>19,
+	"name"=>"水泥预制构件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>306,
+	"pid"=>19,
+	"name"=>"建筑砖瓦",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>307,
+	"pid"=>19,
+	"name"=>"非金属耐火材料及制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>308,
+	"pid"=>19,
+	"name"=>"柏油，沥青及制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>309,
+	"pid"=>19,
+	"name"=>"非金属建筑材料及构件（不包括水泥预制构件）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>310,
+	"pid"=>19,
+	"name"=>"非金属建筑物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>311,
+	"pid"=>19,
+	"name"=>"建筑用玻璃及玻璃材料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>312,
+	"pid"=>19,
+	"name"=>"建筑用涂层",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>313,
+	"pid"=>19,
+	"name"=>"建筑用粘合料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>314,
+	"pid"=>19,
+	"name"=>"石、混凝土、大理石雕塑品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>315,
+	"pid"=>19,
+	"name"=>"棺椁墓碑",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>316,
+	"pid"=>20,
+	"name"=>"家具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>317,
+	"pid"=>20,
+	"name"=>"非金属容器及附件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>318,
+	"pid"=>20,
+	"name"=>"不属别类的工业、建筑配件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>319,
+	"pid"=>20,
+	"name"=>"镜子、画框及部件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>320,
+	"pid"=>20,
+	"name"=>"不属别类的竹、藤、棕、草制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>321,
+	"pid"=>20,
+	"name"=>"未加工或半加工的骨、角、牙、介及不属别类的工艺品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>322,
+	"pid"=>20,
+	"name"=>"非金属牌照",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>323,
+	"pid"=>20,
+	"name"=>"食品用塑料装饰品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>324,
+	"pid"=>20,
+	"name"=>"禽、畜等动物用制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>325,
+	"pid"=>20,
+	"name"=>"用非金属制身份鉴别手环",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>326,
+	"pid"=>20,
+	"name"=>"非金属棺材及附件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>327,
+	"pid"=>20,
+	"name"=>"非金属家具附件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>328,
+	"pid"=>20,
+	"name"=>"垫，枕",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>329,
+	"pid"=>20,
+	"name"=>"非金属紧固件及门窗附件",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>330,
+	"pid"=>21,
+	"name"=>"厨房炊事用具及容器（包括不属别类的餐具）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>331,
+	"pid"=>21,
+	"name"=>"不属别类的玻璃器皿",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>332,
+	"pid"=>21,
+	"name"=>"瓷器，陶器（茶具，酒具除外）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>333,
+	"pid"=>21,
+	"name"=>"玻璃、瓷、陶的工艺品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>334,
+	"pid"=>21,
+	"name"=>"茶具、酒具、咖啡具及饮水用具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>335,
+	"pid"=>21,
+	"name"=>"家庭日用及卫生器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>336,
+	"pid"=>21,
+	"name"=>"梳子，刷子，制刷材料（不包括牙刷）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>337,
+	"pid"=>21,
+	"name"=>"刷牙用具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>338,
+	"pid"=>21,
+	"name"=>"牙签",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>339,
+	"pid"=>21,
+	"name"=>"化妆用具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>340,
+	"pid"=>21,
+	"name"=>"隔热用具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>341,
+	"pid"=>21,
+	"name"=>"家用擦洗用具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>342,
+	"pid"=>21,
+	"name"=>"未加工或半加工玻璃（不包括建筑用玻璃）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>343,
+	"pid"=>21,
+	"name"=>"不属别类的动植物器具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>344,
+	"pid"=>21,
+	"name"=>"家用灭虫、灭鼠用具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>345,
+	"pid"=>22,
+	"name"=>"缆，绳，线，带",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>346,
+	"pid"=>22,
+	"name"=>"网，遮篷，帐篷，防水帆布，帆",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>347,
+	"pid"=>22,
+	"name"=>"袋子，装卸、包装用物品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>348,
+	"pid"=>22,
+	"name"=>"衬垫，填充料，密封物品（不包括橡胶、塑料制品）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>349,
+	"pid"=>22,
+	"name"=>"纤维原料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>350,
+	"pid"=>23,
+	"name"=>"纺织用纱、丝",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>351,
+	"pid"=>23,
+	"name"=>"线",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>352,
+	"pid"=>23,
+	"name"=>"毛线",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>353,
+	"pid"=>24,
+	"name"=>"纺织品，布料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>354,
+	"pid"=>24,
+	"name"=>"特殊用织物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>355,
+	"pid"=>24,
+	"name"=>"纺织品壁挂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>356,
+	"pid"=>24,
+	"name"=>"毡及毡制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>357,
+	"pid"=>24,
+	"name"=>"毛巾，浴巾，手帕",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>358,
+	"pid"=>24,
+	"name"=>"床上用品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>359,
+	"pid"=>24,
+	"name"=>"室内遮盖物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>360,
+	"pid"=>24,
+	"name"=>"洗涤用手套",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>361,
+	"pid"=>24,
+	"name"=>"特殊用布",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>362,
+	"pid"=>24,
+	"name"=>"旗",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>363,
+	"pid"=>24,
+	"name"=>"寿衣",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>364,
+	"pid"=>26,
+	"name"=>"花边，饰品及编带",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>365,
+	"pid"=>26,
+	"name"=>"不属别类的服饰品，饰针",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>366,
+	"pid"=>26,
+	"name"=>"钮扣，领钩扣，拉链",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>367,
+	"pid"=>26,
+	"name"=>"假发，假胡须",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>368,
+	"pid"=>26,
+	"name"=>"缝纫用具（线除外）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>369,
+	"pid"=>26,
+	"name"=>"假花",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>370,
+	"pid"=>26,
+	"name"=>"硬托衬骨",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>371,
+	"pid"=>26,
+	"name"=>"修补纺织品用热粘胶片",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>372,
+	"pid"=>26,
+	"name"=>"亚麻布标记用品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>373,
+	"pid"=>26,
+	"name"=>"茶壶保暖套",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>374,
+	"pid"=>27,
+	"name"=>"地毯",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>375,
+	"pid"=>27,
+	"name"=>"席类",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>376,
+	"pid"=>27,
+	"name"=>"垫及其他可移动铺地板用品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>377,
+	"pid"=>27,
+	"name"=>"墙纸，非纺织品墙帷及非纺织品壁挂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>378,
+	"pid"=>28,
+	"name"=>"娱乐器械，娱乐物品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>379,
+	"pid"=>28,
+	"name"=>"玩具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>380,
+	"pid"=>28,
+	"name"=>"棋，牌及辅助器材",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>381,
+	"pid"=>28,
+	"name"=>"球类及器材",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>382,
+	"pid"=>28,
+	"name"=>"健身器材",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>383,
+	"pid"=>28,
+	"name"=>"射箭运动器材",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>384,
+	"pid"=>28,
+	"name"=>"体操、举重、田径、冰雪及属于本类的其他运动器材",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>385,
+	"pid"=>28,
+	"name"=>"游泳池及跑道",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>386,
+	"pid"=>28,
+	"name"=>"运动防护器具及冰鞋",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>387,
+	"pid"=>28,
+	"name"=>"圣诞树用的装饰品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>388,
+	"pid"=>28,
+	"name"=>"钓具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>389,
+	"pid"=>28,
+	"name"=>"单一商品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>390,
+	"pid"=>29,
+	"name"=>"肉，非活的家禽，野味，肉汁",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>391,
+	"pid"=>29,
+	"name"=>"非活水产品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>392,
+	"pid"=>29,
+	"name"=>"罐头食品（软包装食品不包括在内，随原料制成品归类）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>393,
+	"pid"=>29,
+	"name"=>"腌渍、干制水果及制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>394,
+	"pid"=>29,
+	"name"=>"腌制、干制蔬菜",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>395,
+	"pid"=>29,
+	"name"=>"蛋品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>396,
+	"pid"=>29,
+	"name"=>"奶及乳制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>397,
+	"pid"=>29,
+	"name"=>"食用油脂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>398,
+	"pid"=>29,
+	"name"=>"色拉",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>399,
+	"pid"=>29,
+	"name"=>"食用果胶",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>400,
+	"pid"=>29,
+	"name"=>"加工过的坚果",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>401,
+	"pid"=>29,
+	"name"=>"菌类干制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>402,
+	"pid"=>29,
+	"name"=>"食物蛋白，豆腐制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>403,
+	"pid"=>30,
+	"name"=>"咖啡，咖啡代用品，可可",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>404,
+	"pid"=>30,
+	"name"=>"茶、茶饮料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>405,
+	"pid"=>30,
+	"name"=>"糖",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>406,
+	"pid"=>30,
+	"name"=>"糖果，南糖，糖",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>407,
+	"pid"=>30,
+	"name"=>"蜂蜜，蜂王浆等营养食品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>408,
+	"pid"=>30,
+	"name"=>"面包，糕点",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>409,
+	"pid"=>30,
+	"name"=>"方便食品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>410,
+	"pid"=>30,
+	"name"=>"米，面粉（包括五谷杂粮）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>411,
+	"pid"=>30,
+	"name"=>"面条及米面制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>412,
+	"pid"=>30,
+	"name"=>"谷物膨化食品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>413,
+	"pid"=>30,
+	"name"=>"豆粉，食用预制面筋",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>414,
+	"pid"=>30,
+	"name"=>"食用淀粉及其制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>415,
+	"pid"=>30,
+	"name"=>"食用冰，冰制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>416,
+	"pid"=>30,
+	"name"=>"食盐",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>417,
+	"pid"=>30,
+	"name"=>"酱油，醋",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>418,
+	"pid"=>30,
+	"name"=>"芥末，味精，沙司，酱等调味品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>419,
+	"pid"=>30,
+	"name"=>"酵母",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>420,
+	"pid"=>30,
+	"name"=>"食用香精，香料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>421,
+	"pid"=>30,
+	"name"=>"单一商品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>422,
+	"pid"=>31,
+	"name"=>"未加工的林业产品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>423,
+	"pid"=>31,
+	"name"=>"未加工的谷物及农产品（不包括蔬菜，种子）",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>424,
+	"pid"=>31,
+	"name"=>"花卉，园艺产品，草木植物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>425,
+	"pid"=>31,
+	"name"=>"活生物",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>426,
+	"pid"=>31,
+	"name"=>"未加工的水果及干果",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>427,
+	"pid"=>31,
+	"name"=>"新鲜蔬菜",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>428,
+	"pid"=>31,
+	"name"=>"种子",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>429,
+	"pid"=>31,
+	"name"=>"可食用海藻，动物饲料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>430,
+	"pid"=>31,
+	"name"=>"麦芽",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>431,
+	"pid"=>31,
+	"name"=>"动物栖息用干草等制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>432,
+	"pid"=>32,
+	"name"=>"啤酒",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>433,
+	"pid"=>32,
+	"name"=>"不含酒精饮料",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>434,
+	"pid"=>32,
+	"name"=>"糖浆及其他供饮料用的制剂",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>435,
+	"pid"=>34,
+	"name"=>"烟草及其制品",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>436,
+	"pid"=>34,
+	"name"=>"烟具",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>437,
+	"pid"=>34,
+	"name"=>"火柴",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>438,
+	"pid"=>34,
+	"name"=>"吸烟用打火机",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>439,
+	"pid"=>34,
+	"name"=>"胭纸，过滤嘴",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>440,
+	"pid"=>35,
+	"name"=>"广告",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>441,
+	"pid"=>35,
+	"name"=>"工商管理辅助业",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>442,
+	"pid"=>35,
+	"name"=>"替他人推销",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>443,
+	"pid"=>35,
+	"name"=>"人事管理辅助业",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>444,
+	"pid"=>35,
+	"name"=>"商业企业迁移",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>445,
+	"pid"=>35,
+	"name"=>"办公事务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>446,
+	"pid"=>35,
+	"name"=>"财会",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>447,
+	"pid"=>35,
+	"name"=>"单一服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>448,
+	"pid"=>35,
+	"name"=>"药品、医疗用品零售或批发服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>449,
+	"pid"=>36,
+	"name"=>"保险",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>450,
+	"pid"=>36,
+	"name"=>"金融事务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>451,
+	"pid"=>36,
+	"name"=>"珍品估价",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>452,
+	"pid"=>36,
+	"name"=>"不动产事务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>453,
+	"pid"=>36,
+	"name"=>"经纪",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>454,
+	"pid"=>36,
+	"name"=>"担保",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>455,
+	"pid"=>36,
+	"name"=>"慈善募捐",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>456,
+	"pid"=>36,
+	"name"=>"受托管理",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>457,
+	"pid"=>36,
+	"name"=>"典当",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>458,
+	"pid"=>37,
+	"name"=>"建设、维修信息服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>459,
+	"pid"=>37,
+	"name"=>"建筑工程服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>460,
+	"pid"=>37,
+	"name"=>"开采服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>461,
+	"pid"=>37,
+	"name"=>"建筑物装饰修理服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>462,
+	"pid"=>37,
+	"name"=>"供暖设备的安装与修理",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>463,
+	"pid"=>37,
+	"name"=>"机械、电器设备的安装与修理",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>464,
+	"pid"=>37,
+	"name"=>"陆地机械车辆维修",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>465,
+	"pid"=>37,
+	"name"=>"飞机维修",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>466,
+	"pid"=>37,
+	"name"=>"造船服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>467,
+	"pid"=>37,
+	"name"=>"影视器材维修",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>468,
+	"pid"=>37,
+	"name"=>"钟表修理",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>469,
+	"pid"=>37,
+	"name"=>"保险装置的维修",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>470,
+	"pid"=>37,
+	"name"=>"特殊处理服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>471,
+	"pid"=>37,
+	"name"=>"轮胎维修服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>472,
+	"pid"=>37,
+	"name"=>"家具的修复、保养",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>473,
+	"pid"=>37,
+	"name"=>"衣服、皮革的修补、保护、洗涤服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>474,
+	"pid"=>37,
+	"name"=>"灭虫，消毒服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>475,
+	"pid"=>37,
+	"name"=>"单一服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>476,
+	"pid"=>38,
+	"name"=>"进行播放无线电或电视节目的服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>477,
+	"pid"=>38,
+	"name"=>"通讯服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>478,
+	"pid"=>39,
+	"name"=>"运输及运输前的包装服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>479,
+	"pid"=>39,
+	"name"=>"水上运输及相关服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>480,
+	"pid"=>39,
+	"name"=>"陆地运输",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>481,
+	"pid"=>39,
+	"name"=>"空中运输",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>482,
+	"pid"=>39,
+	"name"=>"其他运输及相关服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>483,
+	"pid"=>39,
+	"name"=>"货物的贮藏",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>484,
+	"pid"=>39,
+	"name"=>"潜水工具出租",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>485,
+	"pid"=>39,
+	"name"=>"供水电气服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>486,
+	"pid"=>39,
+	"name"=>"水闸管理服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>487,
+	"pid"=>39,
+	"name"=>"投递服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>488,
+	"pid"=>39,
+	"name"=>"旅行安排",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>489,
+	"pid"=>39,
+	"name"=>"单一服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>490,
+	"pid"=>40,
+	"name"=>"综合加工及提供信息服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>491,
+	"pid"=>40,
+	"name"=>"金属材料处理或加工服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>492,
+	"pid"=>40,
+	"name"=>"纺织品化学处理或加工服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>493,
+	"pid"=>40,
+	"name"=>"木材加工服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>494,
+	"pid"=>40,
+	"name"=>"纸张加工服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>495,
+	"pid"=>40,
+	"name"=>"玻璃加工服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>496,
+	"pid"=>40,
+	"name"=>"陶器加工服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>497,
+	"pid"=>40,
+	"name"=>"食物、饮料加工服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>498,
+	"pid"=>40,
+	"name"=>"剥制加工服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>499,
+	"pid"=>40,
+	"name"=>"皮革、服装加工服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>500,
+	"pid"=>40,
+	"name"=>"影像加工处理服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>501,
+	"pid"=>40,
+	"name"=>"污物处理服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>502,
+	"pid"=>40,
+	"name"=>"空气调节服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>503,
+	"pid"=>40,
+	"name"=>"水处理服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>504,
+	"pid"=>40,
+	"name"=>"单一服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>505,
+	"pid"=>41,
+	"name"=>"教育",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>506,
+	"pid"=>41,
+	"name"=>"组织和安排教育、文化、娱乐等活动",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>507,
+	"pid"=>41,
+	"name"=>"图书馆服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>508,
+	"pid"=>41,
+	"name"=>"出版服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>509,
+	"pid"=>41,
+	"name"=>"文娱、体育活动的服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>510,
+	"pid"=>41,
+	"name"=>"驯兽",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>511,
+	"pid"=>41,
+	"name"=>"单一服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>512,
+	"pid"=>42,
+	"name"=>"提供研究和开发服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>513,
+	"pid"=>42,
+	"name"=>"提供地质调查、研究、开发服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>514,
+	"pid"=>42,
+	"name"=>"提供化学研究服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>515,
+	"pid"=>42,
+	"name"=>"提供生物学研究服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>516,
+	"pid"=>42,
+	"name"=>"提供气象情报服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>517,
+	"pid"=>42,
+	"name"=>"提供测试服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>518,
+	"pid"=>42,
+	"name"=>"外观设计服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>519,
+	"pid"=>42,
+	"name"=>"建筑物的设计、咨询服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>520,
+	"pid"=>42,
+	"name"=>"服装设计服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>521,
+	"pid"=>42,
+	"name"=>"计算机编程及相关服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>522,
+	"pid"=>42,
+	"name"=>"提供艺术品鉴定服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>523,
+	"pid"=>42,
+	"name"=>"单一服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>524,
+	"pid"=>43,
+	"name"=>"提供餐饮，住宿服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>525,
+	"pid"=>43,
+	"name"=>"提供房屋设施的服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>526,
+	"pid"=>43,
+	"name"=>"养老院",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>527,
+	"pid"=>43,
+	"name"=>"托儿服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>528,
+	"pid"=>43,
+	"name"=>"为动物提供住宿",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>529,
+	"pid"=>43,
+	"name"=>"单一服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>530,
+	"pid"=>44,
+	"name"=>"医疗服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>531,
+	"pid"=>44,
+	"name"=>"卫生、美容服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>532,
+	"pid"=>44,
+	"name"=>"为动物提供服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>533,
+	"pid"=>44,
+	"name"=>"农业、园艺服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>534,
+	"pid"=>44,
+	"name"=>"单一服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>535,
+	"pid"=>45,
+	"name"=>"安全服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>536,
+	"pid"=>45,
+	"name"=>"提供人员服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>537,
+	"pid"=>45,
+	"name"=>"提供服饰服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>538,
+	"pid"=>45,
+	"name"=>"殡仪服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>539,
+	"pid"=>45,
+	"name"=>"单一服务",
+	"slug"=>"",
+	"description"=>""
+],
+[ 
+	"id"=>540,
+	"pid"=>45,
+	"name"=>"法律服务",
+	"slug"=>"",
+	"description"=>""
+],
+
+
+        ]);
+
+	}
+
+}
+

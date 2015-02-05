@@ -1,0 +1,28 @@
+/*===============================================================================
+ *********************************   商标超市       *******************************
+ ===============================================================================*/
+/**
+ * 商标超市样式表
+ * 创建人：YF 
+ * 创建时间：2015-01-22
+ */
+
+/*********************图片大小**************************/
+/*商标首页轮播图下*/
+div#sub-ul-1 h4 img { width:23px; height:32px; }
+/*热卖推荐*/
+ul.mar_list li a img { width:100px; height:50px; }
+/*商品列表页图片*/
+p.go-shop img { width:230px; height:180px; }
+/*列表间距*/
+.ex-mr3 .flo4 li { width: 275px; border: none; background: #f4f4f4; margin: 0 12px 20px 9px; }
+/*一口价页面进店必选图片*/
+div.ex-mr1 ul.flo1 li p.fixed-flo1 img { width:230px; height:180px; }
+/*一口价页面列表图片*/
+div.ex-mr3 ul.flo3 li p.go-shop img { width:195px; height:155px; }
+/*人气推荐*/
+div.onbox ul.le-loop li p.hot-hr img { width:195px; height:155px; }
+/*人气成功案例*/
+div.onbox ul.flo5 li p.go-shop img { width:195px; height:155px; }
+/*人气列表*/
+div.ex-m4 div.grade ul.flo3 li p.go-shop img { width:195px; height:155px; }

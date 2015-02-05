@@ -1,0 +1,17 @@
+/**
+ * 主要公共样式 （包含自定义公共样式，覆盖bootstrap.css的部分样式）
+ * 如果不确定是否是夸模块公用的，写在模块内的公共样式部分
+ */
+
+/*重置响应式样式*/
+.container{width:1190px;}
+a:focus{outline:none;}
+a:hover{text-decoration:none;}
+.nav-tabs>li>a{border-radius:0;}
+.btn{border-radius:0;}
+select{height:34px; line-height:34px;border-radius:0!important;}
+input{border-radius:0!important;}
+.bs-callout {padding: 20px;margin: 20px 0;border: 1px solid #eee;border-left-width: 5px;border-radius: 3px;}
+.bs-callout-info {border-left-color: #5bc0de;}
+.none{display: none;}
+

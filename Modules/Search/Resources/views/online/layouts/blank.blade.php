@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="zx">
+<head>
+	<meta charset="utf-8" />
+	<title>域名查询</title>
+	<meta content="" name="description" /> 
+	<meta content="" name="author" />
+	@asset('jquery', 'script')
+
+	@asset('bootstrap', 'style')
+	@asset('base', 'style')
+	@asset('font-awesome', 'style')
+	{{ HTML::style('modules/search/css/zxQuiry.css') }}
+	@yield('style')
+</head>
+<body>
+	@yield('alert')
+	 
+	<div class="wrap">		
+		<!-- top start -->
+		@include('search::online.partials.header') 
+		<!-- top end -->
+		<!-- content start -->
+		@yield('content')		 
+		<!-- content end -->
+		<!-- footer start -->
+		@include('search::online.partials.footer')
+		<!-- footer end -->
+	</div>
+</body> 
+	@asset('bootstrap', 'script')
+	@asset('superslide', 'script')
+	{{ HTML::script('modules/search/js/zxQuiry.js') }}
+	@yield('script')
+</html>

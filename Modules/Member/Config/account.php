@@ -1,0 +1,148 @@
+<?php
+return [
+    'privacy' =>[
+        ''  =>  '--请选择--',
+        '1' =>  '仅自己可见',
+        '2' =>  '仅好友可见',
+        '3' =>  '所有会员可见',
+        '4' =>  '所有人可见'
+    ],
+    'edu'   =>[
+        ''  =>  '--请选择--',
+        '1'=>'博士',
+        '2'=>'硕士',
+        '3'=>'本科',
+        '4'=>'大专',
+        '5'=>'其它'
+    ],
+
+
+    'publish'=>[
+        'brand'=>[
+            'combine'=>[
+                'en'=>"英文",
+                'cn'=>"中文",
+                'cn_en'=>"中文+英文",
+                'graph'=>"图形",
+                'cn_graph'=>"中文+图形",
+                'en_graph'=>"英文+图形",
+                'group'=>"组合",
+            ],
+            'tags'=>[
+                'tags1'=>'football',
+                'tags2'=>'backeball',
+                'tags3'=>"tevl",
+            ],
+             "trading"=>[
+                'transfer'=>'转让',
+                'general'=>'普通许可',
+                'exclusive'=>'独占许可',
+                'exclusiveUp'=>'排他许可',
+            ],
+        ],
+        'patent'=>[
+            'combine'=>[
+                'en'=>"英文",
+                'cn'=>"中文",
+                'cn_en'=>"中文+英文",
+                'graph'=>"图形",
+                'cn_graph'=>"中文+图形",
+                'en_graph'=>"英文+图形",
+                'group'=>"组合",
+            ],
+            'tags'=>[
+                'tags1'=>'football1',
+                'tags2'=>'backeball1',
+                'tags3'=>"tevl1",
+            ],
+            'type'=>[
+                'tags1'=>'发明专利',
+                'tags2'=>'实用新型专利',
+                'tags3'=>"外观专利",
+            ],
+
+        ],
+        'copyright'=>[
+            "copybelongto"=>[
+                'private'=>'个人',
+                'right'=>'权利',
+                'law'=>'法律',
+                'other'=>'其他',
+                ],
+            'copyrightfrom'=>[
+                'perscreate'=>'个人创作',
+                'buyer'=>'购买',
+                'extends'=>'继承',
+                'lawyer'=>'法人组织创作',
+                'other'=>'其他',
+            ],
+            'copyrighttype'=>[
+                'publishright'=>'发行权',
+                'lendright'=>'出租权',
+                'exhibitright'=>'展览权',
+                'showright'=>'表演权',
+                'screenright'=>'放映权',
+                'broadcastright'=>'广播权',
+                'cpoyright'=>'复制权',
+                'takephotoright'=>'摄制权',
+                'adaptright'=>'改编权',
+                'translationright'=>'翻译权',
+                'compileright'=>'汇编权',
+                'messageright'=>'信息网络传播权',
+                'otherright'=>'其他权利',
+            ],
+
+        ],
+        'domain'=>[
+            'domainsuffix'=>[
+                "en_domainsuffix"=>[
+                    'en_top'=>".top",
+                    "en_com"=>'.com',
+                    'en_net'=>".net",
+                    "en_org"=>".org",
+                    "en_biz"=>".biz",
+                    "en_cc"=>".cc",
+                    "en_asia"=>".asia",
+                    "en_mobi"=>"mobi",
+                    "en_info"=>".info",
+                    "en_tv"=>".tv",
+                    "en_tel"=>".tel",
+                    "en_os"=>".os",
+                    "en_co"=>".co",
+                    "en_it"=>".it",
+                    "en_hn"=>".hn",
+                    "en_bz"=>".bz",
+                    "en_vc"=>".vc",
+                    "en_de"=>".de",
+                    "en_in"=>".in",
+                    "en_mn"=>".mn",
+                    "en_la"=>".la",
+                    "en_tm"=>".tm",
+                    "en_wang"=>".wang",
+                    "en_cn"=>".cn",
+                    "en_china"=>".中国",
+                    "en_com.cn"=>".com.cn",
+                    "en_net.cn"=>".net.cn",
+                    "en_gov.cn"=>".gov.cn",
+                    "en_org.cn"=>".org.cn",
+                    "en_hk"=>".hk",
+                ],
+                "ch_domainsuffix"=>[
+                    'ch_top'=>".top",
+                    'ch_china'=>".中国",
+                    'ch_company'=>".公司",
+                    'ch_Internet'=>".网络",
+                    "ch_com"=>'.com',
+                    'ch_net'=>".net",
+                    "ch_org"=>".org",
+                    "ch_biz"=>".biz",
+                    "ch_cc"=>".cc",
+                    "ch_tv"=>".tv",
+                    "ch_tw"=>".tw",
+                    "ch_wang"=>".wang",
+                    "ch_cn"=>".cn",
+                ],
+            ]
+        ]
+    ]
+];

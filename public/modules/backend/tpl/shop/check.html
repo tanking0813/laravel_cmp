@@ -1,0 +1,71 @@
+<div ng-controller="ShopCheckCtrl">
+    <div class="bg-light lter b-b wrapper-md">
+        <h1 class="m-n font-thin h3">{{ model_name }}审核列表</h1>
+    </div>
+    <div class="wrapper-md">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <a class="btn m-b-xs w-xs btn-success" ui-sref="app.shop.logo.add">添加{{ model_name }}</a>
+            </div>
+            <div class="panel-body b-b b-light">
+                Search: <input id="filter" type="text" class="form-control input-sm w-sm inline m-r"/>
+            </div>
+            <div>
+                <table class="table m-b-none" ui-jq="footable" data-filter="#filter" data-page-size="5">
+                    <thead>
+                    <tr>
+                        <th data-toggle="true">id</th>
+                        <th data-toggle="true">分类</th>
+                        <th>图片</th>
+                        <th>商品</th>
+                        <th>会员</th>
+                        <th>价格</th>
+                        <th>更新时间</th>
+                        <th>创建时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="shop in shops">
+                        <td data-toggle="true">{{ shop.id }}</td>
+                        <td>{{ shop.category }}</td>
+                        <td><img ng-src="{{ shop.thumb }}" width="50px" height="50px"></td>
+                        <td>{{ shop.title }}</td>
+                        <td>{{ shop.user }}</td>
+                        <td>{{ shop.price }}</td>
+                        <td>{{ shop.updated_at }}</td>
+                        <td>{{ shop.created_at }}</td>
+                        <td>
+                            <div class="btn-group dropdown">
+                                <button class="btn btn-success btn-xs dropdown-toggle {{ shop.disabled }}" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a ui-sref="app.shop.logo.edit({id:shop.id})">查看</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href ng-click="onCheck({id:shop.id},1)">审核通过</a></li>
+                                    <li><a href ng-click="onCheck({id:shop.id},3)">审核未通过</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                    <tfoot class="hide-if-no-paging">
+                    <tr>
+                        <td colspan="9" class="text-center">
+                        <ul class="pagination" ng-show="totalPage>1" >
+                            <li ng-class="{true:'active'}[currentPage>1]"><a href="javascript:void(0)" ng-click="currentPage=1;load()">首页</a></li>
+                            <li ng-class="{true:'disabled'}[currentPage==1]"><a href="javascript:void(0);" ng-click="prev()">上一页</a></li>
+                            <li ng-repeat="page in pages" ng-class="{true:'active'}[currentPage == page]">
+                                <a href="javascript:void(0);" ng-click="loadPage(page)">{{ page }}</a>
+                            </li>
+                            <li ng-class="{true:'disabled'}[currentPage==totalPage]"><a href="javascript:void(0);" ng-click="next()">下一页</a></li>
+                            <li ng-class="{true:'active'}[currentPage==totalPage]"><a href="javascript:void(0)" ng-click="currentPage=totalPage;load()">末页</a></li>
+                            <li><a href="javascript:;">共{{ total }}条数据</a></li>
+                        </ul>
+                    </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

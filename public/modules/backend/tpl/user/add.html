@@ -1,0 +1,20 @@
+<div ng-controller="UserAddCtrl">
+    <!-- header -->
+    <div class="wrapper bg-light lter b-b">
+        <div class="btn-group m-r-sm">
+            <a href class="btn btn-sm btn-default w-xxs w-auto-xs" tooltip="提交" ng-click="postAdd()"><i class="fa fa-file"></i></a>
+            <a ui-sref="app.user.list" class="btn btn-sm btn-default w-xxs w-auto-xs" tooltip="取消"><i class="fa fa-trash-o"></i></a>
+        </div>
+    </div>
+    <!-- / header -->
+    <div class="wrapper">
+        <div class="panel panel-default">
+            <div class="panel-heading font-bold">添加用户</div>
+            <div class="panel-body">
+                <dynamic-form name="newMail" class="form-horizontal m-t-lg" template="stdFormTemplate" ng-model="stdFormData">
+
+                </dynamic-form>
+            </div>
+        </div>
+    </div>
+</div>

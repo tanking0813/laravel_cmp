@@ -1,0 +1,396 @@
+/**
+ * 搜索查询样式表
+ * 创建人：王茜 
+ * 创建时间：2015-1-13
+ */
+
+/*===============================================================================
+ *********************************   专利查询模块       *******************************
+ ===============================================================================*/
+
+/** ----------------------------------------公共样式--------------------------------------------------**/
+.wrap{ width: 100%; font-family: "微软雅黑"; background: #eaeaea; font-size: 12px;}
+a:hover{ text-decoration: none;}
+.ma0{ margin: 0;}
+.mb0{ margin-bottom: 0;}
+.ml0{ margin-left: 0!important;}
+.mr0{ margin-right: 0;}
+.pa0{ padding: 0;}
+.pl0{ padding-left: 0;}
+.pr0{ padding-right: 0;}
+.mt15{ margin-top: 15px;}
+.navbar{ min-height: 25px; border-radius: 0; border: 0;}
+.form-control{ box-shadow: none; -webkit-box-shadow: none; border-radius: 0;}
+.btn{ border-radius: 0;}
+.dropdown-menu{ border-radius: 0; border: solid 1px #ccc; font-size: 12px; min-width: 110px;}
+/*--------------------------header start-------------------------*/
+.header{ height: 40px; line-height: 40px;}
+.header a,.footer a{ color: #666;}
+.header .h-left a,.footer-details a{ padding-right: 15px;}
+.header .h-right{ text-align: right;}
+.header .h-right li.register a{ color: #ff0000;}
+
+/*--------------------------footer start-------------------------*/
+.footer{ height: 95px; padding-top: 30px; text-align: center; position: relative;}
+.footer .logo{ position: absolute; left: 0; top: 15px;}
+
+/** ---------------------------------------私有样式------------------------------------------------ **/
+
+
+/*--------------------------content start-------------------------*/
+.content{ width: 100%; height: 615px; text-align: center; background: url("../images/bg.jpg") no-repeat;}
+.content .header{ width: 250px; height: 60px; margin: 30px auto; padding-left: 56px; background: url("../images/icons.png") -5px -184px no-repeat;}
+.content .header h1{ font-size: 48px; color: #fff;}
+
+/*------------------content matter start----------------*/
+
+/*------------------首页搜索框相关----------------*/
+.content .details{ width: 1070px; height: 430px; background: #fff; margin: 0 auto; padding: 80px 0;}
+.content .search-box .heading{ width: 125px; height: 56px; border: solid 1px #ccc; background: #f6f6f6; margin-right: -5px; position: relative; text-align: left;}
+.content .search-box .heading span{ width: 0; height: 0; display: block; border-width: 6px; border-color: #6c6c6c transparent transparent transparent; border-style: solid dashed dashed dashed; cursor: pointer; position: absolute; top: 26px; right: 15px;}
+.content .search-box .heading h4{ font-size: 15px; font-weight: normal; margin: 0 0 0 15px; line-height: 56px;}
+.content .search-box .heading h4.fn,.checkbox-gather ul.fn-list,.pt-pullDown tr.ptl-content,.pt-apply-box .pt-tijiao-box{ display: none;}
+.content .search-box input{ width: 435px; height: 56px;}
+.content .search-box button{ height: 56px; padding-left: 32px; padding-right: 32px; background: #255f88; color: #fff; font-size: 16px; border: solid 1px #184d73;}
+.content .checkbox-gather{ width: 800px; text-align: left; margin: 20px auto 0 auto; padding: 0 8px;} 
+.content .checkbox-gather li{ cursor:pointer; padding-left: 0; padding-right: 8px;}
+.content .checkbox-gather span,.quick-stat .qs-details span,.filtrate-item-box ul li span{ width: 12px; height: 12px; margin-right:5px; display: inline-block; border: solid 1px #d3d3d3; /*vertical-align: middle;*/}
+.content .checkbox-gather span.active,.quick-stat .qs-details span.active{ background: url("../images/check-icon.png") no-repeat;}
+
+/*------------------色块集----------------*/
+.color-lump{ margin-top: 65px;}
+.color-lump li{ width: 206px; height: 100px; margin: 0 15px; padding: 32px 30px 28px 30px; text-align: left;}
+.color-lump li a{ font-size: 22px; color: #fff; padding: 10px 0 10px 53px; background: url("../images/icons.png") no-repeat;}
+.color-lump li.application{ background: #1792fa;}
+.color-lump li.data{ background: #de8d0c;}
+.color-lump li.guide{ background: #e44762;}
+.color-lump li.application a{ background-position: 0 0;}
+.color-lump li.data a{ background-position: 0 -63px;}
+.color-lump li.guide a{ background-position: 0 -122px;}
+
+/*------------------------------------ziye content start------------------------------------*/
+
+/* -------------- 子页头部搜索框相关------------*/
+.zy-content{ height: auto; padding-bottom: 15px; background: url("../images/bg.jpg") repeat-y;}
+.zy-content .logo{ margin-right: 50px; text-align: left;}
+.zy-content .zy-heading{ margin: 35px 0;}
+.zy-content .zy-details,.zy-content .checkbox-gather span{ background: #fff;}
+.zy-content .search-box .heading{ height: 30px; margin-right: -1px;}
+.zy-content .search-box .heading h4{ line-height: 30px;}
+.zy-content .search-box .heading span{ width: 12px; height: 12px; background: url("../images/arrows.png") 0 -41px no-repeat; border-width: 0; top: 10px; right: 10px;}
+.zy-content .search-box input{ width: 325px; height: 30px;}
+.zy-content .search-box button{ background: #dc6d01; width: 70px; margin-left: 12px; height: 30px; border: none; padding-left: 15px; padding-right: 15px; font-size: 15px;}
+.zy-content .checkbox-gather{ width: auto; padding: 0 5px;}
+.zy-content .checkbox-gather li{ color: #F0F5FF;}
+.zy-content .checkbox-gather span.active{ background: url("../images/check-icon1.png") no-repeat;}
+.zy-content .search-box .link{ text-align: left; height: 30px; line-height: 30px;}
+.zy-content .search-box .link a{ color: #F0F5FF; text-decoration: underline;}
+
+/* -------------- 快捷统计操作------------*/
+.quick-stat .qs-title{ height: 34px; line-height: 34px; border-bottom: 1px solid #ccc;}
+.quick-stat .qs-title h4{ font-size: 16px; font-weight: normal; color: #0b76b8; text-align: left; line-height: 34px;}
+.quick-stat .hd{ overflow: hidden; font-size: 13px;}
+.quick-stat .hd li{ text-align: left; float: left; cursor: pointer; background: url("../images/arrow.png") right -29px no-repeat; padding-right: 16px; margin-right: 60px;}
+.quick-stat .hd li.focus{ color: #0b76b8; font-weight: bold; background-position: right 15px;}
+.quick-stat .bd{ border-bottom: 1px solid #ddd; padding: 10px 100px 0 204px; display: none; position: relative;}
+.quick-stat .qs-details span{ border: solid 1px #BDBDBD;}
+.quick-stat .qs-details .filtrate-btn{ display: block!important; background: #0b77b8; color: #fff; font-size: 12px; padding: 3px 12px; position: absolute; top: 6px; right: 50px;}
+.quick-stat .lh{ overflow: hidden;}
+.quick-stat .lh li{ padding: 0 10px 10px 10px; float: left; cursor: pointer; color: #0b76b8;}
+
+/* -------------查询结果列表展示-----------*/
+.zy-result{ padding-top: 0; padding-bottom:0; text-align: left;}
+
+/*筛选下拉菜单相关*/
+.zy-result .filtrate{ margin-left: -72px; height: 30px; line-height: 30px;}
+.zy-result .filtrate ul li{ background: #919090; color: #fff; padding: 0 15px; margin-right: 5px; cursor: pointer; position: relative;}
+.zy-result .filtrate ul li.relevancy{ min-width: 141px;}
+.zy-result .filtrate ul li.state{ min-width: 110px;}
+.zy-result .filtrate ul li .dropdown-toggle{ height: 30px;}
+.zy-result .filtrate ul li .icon{ position: absolute; top: 9px; right: 15px; width: 12px; height: 12px; margin-left: 20px; vertical-align: middle; display: inline-block; background: url("../images/arrow.png") 0 -79px no-repeat;}
+.zy-result .filtrate ul li.statistics{ background: none; padding: 0;}
+.zy-result .filtrate ul li.statistics img{ margin-right: 10px;}
+.zy-result .filtrate ul li.relevancy .icon{ margin-left: 10px;}
+.zy-result .filtrate .relevancy .dropdown-menu{ min-width: 141px;}
+.zy-result .filtrate .dropdown-menu li{ background: #fff; color: #666; height: 22px!important; line-height: 22px; padding: 0 10px;}
+.zy-result .filtrate .dropdown-menu li span{ width: 14px; height: 10px; display: inline-block; margin-right: 5px;}
+.zy-result .filtrate .dropdown-menu li span.active{ background: url("../images/tick.png") no-repeat;}
+
+/*------------历史记录和对比浮框------------*/
+.searchR-content{ position: relative;}
+.history-contrast{ position: absolute; right: 15px; width: 294px; border: solid 1px #ccc; }
+.history-contrast .hd li{ border-bottom: solid 1px #ccc; background: none!important; margin-right: 0!important; text-align: center; color: #333!important; width: 146px!important; padding: 0!important;}
+/*.history-contrast .hd li.on{ background: none!important; color: #dc6d01!important; border-bottom: solid 1px #fff; border-left: solid 1px #ccc; border-right: solid 1px #ccc; text-decoration: underline;}*/
+.history-contrast .bd .lh{ padding: 15px;}
+.history-contrast .bd .contrast-box .btn-click{ text-align: right;}
+
+/*查询结果视图模块样式重置*/
+.zy-result .lh ul li.pt-father{ height: 205px!important; border-bottom: solid 1px #ccc!important; margin-top: 30px!important; padding-bottom: 20px;}
+.zy-result .patent-img{ width: 134px; height: 179px; border: solid 2px #ccc; padding: 0;}
+.zy-result .patent-img img{ max-width: 130px; max-height: 175px;}
+.zy-result .patent-detail{ margin: 0 0 0 50px; padding: 0; position: relative;}
+.zy-result span.contrast{ width: 16px; height: 16px; border: solid 1px #aaa; position: absolute; top: 5px; left: -25px;}
+.zy-result .patent-detail .btn,.pt-pullDown button.trans-btn,.ptDetail .ptDetail-title .ptD-name .valid-btn{ height: 22px!important; font-size: 12px; margin-left: 5px!important;}
+.zy-result .patent-detail .failure-btn{ background: #747474!important;}
+.zy-result .patent-detail .essence-btn{ background: #dc6d01!important;}
+.zy-result .patent-detail .public-btn{ background: #7fc31e!important;}
+.zy-result .patent-detail .part-v-btn{ background: #059cae!important;}
+.zy-result .patent-detail a.pt-name{ color: #0b76b8!important; margin-left: 5px;}
+.zy-result .patent-detail p,.pt-pullDown .lb-pt-detail p{ line-height: 2em; margin-bottom: 0;}
+.zy-result .patent-detail p b,.zy-result .patent-detail li a,.pt-pullDown .lb-pt-detail b,.pt-pullDown .lb-pt-detail li a{ font-weight: normal; color: #666;}
+
+/*国外视图及列表样式*/
+.zy-result .pt-fn-filtrate{ margin-left: -78px;}
+.zy-result .lh ul li.pt-fn-father{ height: auto!important;}
+.zy-result .lh ul li .pt-fn-detail a.pt-name{ font-size: 16px;}
+.zy-result .lh ul li button.trans-btn{ width: 52px!important;}
+
+/*查询结果列表模块样式重置*/
+.zy-result .bd .pt-liebiao th{ width: 240px!important; background: #e5e5e5;}
+.zy-result .bd .pt-liebiao th.serial-number{ width: 80px!important;}
+.zy-result .bd .pt-liebiao tr th i{ font-size: 16px; padding-right: 10px;}
+.zy-result .bd .pt-liebiao span.contrast{ left: 65px; top: 11px;}
+.pt-pullDown tr.visible{ display: table-row!important;}
+.pt-pullDown tr.ptl-title a,.pt-apply .a-service .cly-detail li a{ color: #333;}
+.pt-pullDown tr.ptl-title a.active{ color: #127aba;}
+.pt-pullDown tr.ptl-content td{ text-align: left!important;}
+.pt-pullDown tr.ptl-content .lb-pt-detail{ padding: 15px 15px 15px 150px; background: #fcfce1;}
+
+/*查询结果图形模块样式重置*/
+.zy-result .pt-tuxing li{ height: 350px!important; margin: 0 5px 15px 5px!important;}
+.zy-result .pt-tuxing li a.txbrand-img{ height: 284px!important;}
+.zy-result .pt-tuxing li img{ max-height: 284px!important;}
+.zy-result .pt-tuxing .txbrand-detail{ margin-top: 15px!important; position: relative;}
+.zy-result .pt-tuxing span.contrast{ top: -3px!important; left: 0;}
+.zy-result .pt-tuxing a.pt-name{ padding-left: 24px;}
+
+
+/*-------------------------专利指南---------------------*/
+.pt-guide,.data-declare{ text-align: left; padding: 35px 15px; position: relative;}
+.pt-guide .special-title{ height: 38px; width: 220px; font-size: 18px; font-weight: 500; color: #fff; background: url("../images/g-title.png") no-repeat; position: absolute; top: -7px; left: 0; text-indent: 3em; line-height: 36px;}
+.pt-guide p,.pt-apply .a-service h4{ margin-bottom: 0;}
+.pt-guide .pt-g-title{ background: #eaeaea; height: 38px; margin: 15px 0;}
+.pt-guide .pt-g-title p.lead{ font-size: 14px; color: #0a76b7; line-height: 38px; padding-left: 15px;}
+.pt-guide .pt-g-parag p,.pt-apply .a-trouble .cly-detail p{ line-height: 2em; text-indent: 2em;}
+.pt-guide .pt-g-parag mark{ color: #dc6d01; background: none; font-weight: normal; padding: 0;}
+.pt-guide .pt-g-parag span{ margin: 0 5px;}
+
+/*----------------------------专利申请---------------------------*/
+.pt-apply,.a-service .row{ margin-top: 15px;}
+.pt-apply .hd{ overflow: hidden; background: #f7f7f6;}
+.pt-apply .hd li{ font-size: 14px; border-bottom: solid 1px #ccc; height: 36px; line-height: 36px; text-align: center; width: 50%; float: left; cursor: pointer; }
+.pt-apply .hd li.on{ font-weight: bold; background:#fff; border-bottom: 1px solid #fff; color: #dc6d01; border-top:2px solid #dc6d01;}
+.pt-apply .hd li.on span{ border-bottom: solid 1px #dc6d01;}
+
+/* -------------常见问题-----------*/
+.pt-apply .a-trouble{ width: 960px; margin: 30px auto 0 auto; border: solid 1px #ccc; overflow: hidden;}
+.pt-apply .a-trouble h4,.pt-apply .a-service h4{ font-size: 14px; height: 38px; line-height: 38px; margin-top: 0; padding-left: 10px; background: #f7f7f6; cursor: pointer;}
+.pt-apply .a-trouble h4 em,.pt-apply .a-service h4 em{ float: left; display:block; width:40px; height:38px; background:url("../images/icoAdd.png") 16px 16px no-repeat; cursor:pointer;}
+.pt-apply .a-trouble h4.on em,.pt-apply .a-service h4.on em{ background-position:16px -52px;}
+.pt-apply .a-trouble .cly-detail{ padding: 0 15px 15px 15px;}
+
+
+/* ------------服务类型------------*/
+.pt-apply .a-service{ width: 1050px; margin: 0 auto;}
+.pt-apply .a-service h4.on{ border-bottom: solid 1px #ccc;}
+.pt-apply .a-service h4{ border-top: solid 1px #ccc;}
+.pt-apply .a-service .cly-content{ width: 210px; min-height: 304px; border: solid 1px #ccc;}
+.pt-apply .a-service .cly-detail{ padding: 15px 0 15px 50px;}
+.pt-apply .a-col-notice{ width: 780px; min-height: 304px; overflow: hidden; border:1px solid #ccc; margin-left: 60px; padding: 50px 75px;}
+.pt-apply .a-col-notice .a-col-search .row{ margin: 40px 0;}
+.pt-apply .a-col-notice .a-col-search input{ width: 490px; height: 60px; background: #f7f7f6;}
+.pt-apply .a-col-notice .a-col-search .acs-btn{ font-size: 18px; width: 114px; height: 60px; background: #f7f7f6; border:1px solid #ccc; margin-left: 30px;}
+.pt-apply .a-col-notice .acn-title{ float: left;  margin-right: 50px; font-size: 14px;}
+.pt-apply .a-service .cly-detail li,.pt-apply .a-col-notice .a-col-bd li,.pt-apply .a-col-notice .select-radio li{ height: 24px; line-height: 24px;}
+.pt-apply .a-col-notice .select-radio li span,.ptApplication-box .pta-info li span{ width: 22px; height: 16px; display: inline-block; background: url("../images/radio.png") no-repeat;}
+.pt-apply .a-col-notice .select-radio li span.active,.ptApplication-box .pta-info li span.active{ background: url("../images/radio-on.png") no-repeat;}
+
+/*----------------------------专利申请中的弹出框---------------------------*/
+.ptApplication-box .modal-dialog,.ptApplication-box .modal-content{ width: 700px!important; font-size: 12px; border-radius: 0;}
+.ptApplication-box .modal-header{ padding: 15px; border-bottom: none;}
+.ptApplication-box .modal-body{ padding: 15px 30px 30px 30px;}
+.ptApplication-box .pt-apply-box p.lead{ font-size: 16px; color: #dc6d01; font-weight: normal; margin: 0 0 5px 10px;}
+.ptApplication-box .pt-apply-box form{ border: solid 1px #ccc; padding: 15px;}
+.ptApplication-box .pt-apply-box i{ color: #ff0000; margin-right: 15px; vertical-align: middle;}
+.ptApplication-box .pt-apply-box label{ font-size: 12px; font-weight: normal; padding-top: 0; line-height: 24px;}
+.ptApplication-box .pt-apply-box input{ width: 166px; height: 24px; padding: 6px; font-size: 12px;}
+/*--------申请信息-------*/
+.ptApplication-box .pta-info #applyField,.ptApplication-box .pta-info #applyHonor{ height: 24px; line-height: 24px;}
+.ptApplication-box .pta-info #applyType{ width: 166px; height: 24px; line-height: 24px; padding-left: 6px; border: solid 1px #ccc;}
+.ptApplication-box .pta-info #applyType .icon,.statisticChart-box .schart-detail-list .icon{ cursor: pointer; width: 20px; height: 22px; background: #f0f0f0; border-left: solid 1px #ccc; display: inline-block; float: right; position: relative;}
+.ptApplication-box .pta-info #applyType .icon span,.statisticChart-box .schart-detail-list .icon span{ width: 0; height: 0; border-width: 5px; border-color: #999 transparent transparent transparent; border-style: solid dashed dashed dashed; display: block; position: absolute; top: 10px; right: 4px;}
+.ptApplication-box .pta-info .open ul{ min-width: 166px; left: 15px; padding: 6px;}
+.ptApplication-box .pta-info .open ul li{ line-height: 22px;}
+/*-------基本资料-------*/
+.ptApplication-box .pt-apply-box .pta-data{ margin: 20px 0;}
+.ptApplication-box .pta-data .form-control-static{ padding-top: 0; padding-bottom: 0; line-height: 24px; color: #b4b4b4;}
+.ptApplication-box .pt-apply-box .tjsq-btn{ width: 108px; height: 34px; background: #0a76b7; color: #fff; margin: 0 auto; display: block;}
+.pt-tijiao-box{ width: 510px; height: 200px; position: absolute; top: 150px; left: 95px; background: #fff;}
+.pt-tijiao-box .pttj-body{ text-align: center; font-size: 14px; margin-top: 50px;}
+.ptApplication-box .pt-apply-box .pttj-box,.edit-searches .field-content .pttj-box{ display: block;}
+
+/* -------------对比页面-----------*/
+.zy-content .pt-contrast{ padding: 30px 15px;}
+.zy-content .pt-contrast thead th{ background: #f7f7f7; font-size: 14px; font-weight: bold; border-bottom: solid 1px #ddd;}
+.zy-content .pt-contrast thead th.ptc-items,.ptDetail .pt-apply .bd .a-lh-box th.ptc-items{ width: 180px; text-align: center;}
+.zy-content .pt-contrast tbody tr.ptc-tr-first{ height: 60px; line-height: 60px; font-size: 16px; font-weight: 500; color: #0b77b8;}
+.zy-content .pt-contrast tbody td.ptc-i-list{ text-align: right; padding-right: 40px;}
+.zy-content .pt-contrast tbody td{ text-align: left; vertical-align: middle; line-height: 1.8em;}
+.zy-content .pt-contrast tbody td img{ margin: 0 auto; display: block; max-width: 200px;}
+.zy-content .pt-contrast tbody td a{ padding-top: 2px;}
+.zy-content .pt-contrast tbody td a,.zy-content .pt-contrast thead th span{ float: right; cursor: pointer; font-size: 12px; font-weight: normal;}
+
+/* -------------专利详情页-----------*/
+.ptDetail .ptDetail-title .ptD-name{ font-size: 16px; font-weight: 500;}
+.ptDetail .ptDetail-title .ptD-name span{ margin-right: 5px;}
+.ptDetail .ptDetail-title .ptD-function button{ background: #0a76b7; color: #fff;}
+.ptDetail .pt-apply .hd li{ width: 25%; border-right: solid 1px #ddd; border-left: solid 1px #fff;}
+.ptDetail .pt-apply .bd p.lead{ font-size: 12px; font-weight: normal; color: #333; margin-bottom: 5px;}
+.ptDetail .pt-apply .bd .a-lh-box{ border-bottom: dashed 1px #ddd; padding: 20px 60px; line-height: 2em; color: #666;}
+.ptDetail .pt-apply .bd .a-lh-box thead th{ border-bottom: solid 1px #ddd; text-align: center;}
+.ptDetail .pt-apply .bd .a-lh-box table{ text-align: center;}
+.ptDetail .pt-apply .jiben-info{ padding: 30px 140px 20px 140px!important;}
+.ptDetail .pt-apply .jiben-info .col-xs-6{ width: 400px;}
+.ptDetail .pt-apply .jiben-info .jb-right{ margin-left: 50px;}
+.ptDetail .pt-apply .abstract-info .ai-parag{ text-indent: 2em;}
+.ptDetail .pt-apply .abstract-info .ai-img{ border: solid 1px #ccc; width: 400px; padding: 4px; margin-left: 100px;}
+.ptDetail .pt-apply .abstract-info .ai-img img{ display: block; margin: 0 auto; vertical-align: middle; max-width: 390px;}
+.ptD-pimg img{ margin: 0 auto; display: block; max-width: 1130px;}
+
+/* -------------高级检索页面-----------*/
+.search-box .high-search-title{ width: 470px!important; margin-left: -200px; height: 40px!important; border: 0!important;} 
+.search-box .high-search-title h4{ display: block!important; width: 235px; margin-left: 0!important; line-height: 40px!important; cursor: pointer; text-align: center; float: left;}
+.high-search-title h4.on{ background: #dc6d00; color: #fff;}
+.high-search-form form{ border-bottom: dashed 1px #ccc;}
+.high-search-ads-btn{ text-align: center; margin: 20px 0;}
+.high-search-detail .fn-peculiar,.edit-searches .field-content{ display: none;}
+.high-search-detail,.edit-searches{ width: 850px; margin: 20px auto;}
+.high-search-detail label{ padding-right: 0; font-weight: normal; padding-top: 5px!important;}
+.high-search-detail input{ width: 195px; height: 26px; font-size: 12px;}
+.edit-searches b{ font-size: 16px; font-weight: normal;}
+.edit-searches .es-inputBox{ border: solid 1px #ccc; height: 170px; margin: 10px 0; padding: 15px;}
+.edit-searches ul.es-father>li{ border: solid 1px #ccc; padding: 4px 10px; cursor: pointer;}
+.edit-searches .field-content{ padding: 15px 0; border: solid 1px #ccc; margin-top: 2px; position: relative;}
+.edit-searches .field-content .close-icon{ width: 22px; height: 22px; cursor: pointer; position: absolute; top: -10px; right: -10px; background: url("../images/close.jpg") no-repeat;}
+.edit-searches .field-content ul.es-child li{ margin: 5px 15px; cursor: pointer;}
+.edit-searches .btn-group button{ width: 90px; height: 34px; background: #0b77b8; color: #fff; margin: 30px 10px;}
+.high-search-detail .hint-box{ border: solid 1px #ccc; background: #fff; z-index: 9999; padding: 10px; width: 180px; position: absolute; top: 0; right: -110px; display: none;}
+.high-search-detail .hint-box b{ font-weight: 600;}
+.high-search-detail .hint-box p{ margin-top: 5px;}
+.high-search-detail .hint-box mark{ background: none; color: #ccc; margin-top: 5px; display: block; padding: 0;}
+
+
+/* -------------数据说明-----------*/
+.data-declare .dd-left,.data-declare .dd-right{ border: solid 1px #ccc; min-height: 510px;}
+.data-declare .dd-l-title{ height: 40px; line-height: 40px; padding-left: 20px; color: #0a76b7; font-size: 16px; border-bottom: solid 1px #ccc;}
+.data-declare .dd-left .dd-l-title{ background: #e9e9e9;}
+.data-declare .dd-l-list,.data-declare .dd-l-parag{ padding: 15px;}
+.data-declare .dd-left{ width: 225px;}
+.data-declare .dd-left .dd-l-list{ font-size: 14px; border-bottom: dashed 1px #ccc; margin: 0 15px;}
+.data-declare .dd-right{ width: 905px; border-left: none;}
+.data-declare .dd-right .dd-l-parag{ text-indent: 2em;}
+
+/* -------------统计分析-----------*/
+.statistic-heading button.btn-quiry{ width: 90px!important;}
+.statistic-analysis,.IPC-content,.locarno-content{ padding: 15px;}
+.statistic-analysis .sa-show{ height: 34px; line-height: 34px; background: #e5e5e5;}
+.statistic-analysis .sa-show span,.statisticChart-box .modal-header span{ margin: 0 5px;}
+.statistic-analysis .sa-chart{ margin-top: 20px; }
+b.sa-c-title{ font-size: 14px; font-weight: normal;}
+.statistic-analysis .sa-chart .sa-c-detail{ position: relative; border: solid 1px #f9f9f9; height: 300px; margin: 15px 0 30px 0; box-shadow: 3px 3px 3px #ccc; -webkit-box-shadow: 3px 3px 3px #ccc;}
+.statistic-analysis .sa-chart .sa-c-tendency .sa-c-detail{ height: 340px;}
+.statistic-analysis .sa-chart a.chart-modal{ position: absolute; bottom: 15px; right: 40px; font-size: 14px; font-weight: bold; color: #0a76b7; text-decoration: underline;}
+
+/* -------------统计分析弹出框-----------*/
+.statisticChart-box .modal-dialog,.statisticChart-box .modal-content{ width: 980px!important;}
+.statisticChart-box b.sa-c-title{ display: block; margin: 15px 0; text-align: center;}
+.statisticChart-box h4{ font-size: 12px!important; line-height: 36px;}
+.statisticChart-box .schart-detail-list .icon{ height: 20px!important;}
+.statisticChart-box .schart-detail-list .icon span{ top: 8px;}
+.statisticChart-box .schart-detail .dropdown-toggle{ width: 190px; height: 22px; padding-left: 6px; line-height: 22px; border: solid 1px #ccc;}
+.statisticChart-box .schart-detail{ padding: 15px 0 15px 100px; border-bottom: dashed 1px #ccc;}
+.statisticChart-box .schart-detail-list ul>li{ margin-top: 5px;}
+.statisticChart-box .schart-detail-list ul>li p,.statisticChart-box .schart-detail-list .schart-list-info{ float: left; font-size: 12px; line-height: 22px;}
+.statisticChart-box .schart-list-info,.filtrate-item-box .btn{ margin: 0 5px!important; position: relative;}
+.statisticChart-box .schart-list-info .dropdown-menu{ width: 190px!important; top: 20px; box-shadow: none; padding: 0 6px;}
+.statisticChart-box .schart-detail .again-btn,.filtrate-item-box .btn{ padding: 6px 15px; height: 30px; background: #0a76b7; color: #fff; font-size: 12px; margin-top: 38px;}
+.statisticChart-box .schart-mix-box{ padding: 20px 0;}
+.statisticChart-box .schart-mix-box .schart-bg{ width: 450px; height: 276px; border: solid 1px #f9f9f9; box-shadow: 3px 3px 3px #ccc; -webkit-box-shadow: 3px 3px 3px #ccc;}
+.statisticChart-box .schart-mix-box .schart-table{ width: 450px; margin-left: 48px;}
+.statisticChart-box .schart-mix-box .schart-table table{ border: solid 1px #ccc;}
+.statisticChart-box .schart-mix-box table th{ width: 150px; text-align: center; background: #e5e5e5; border-bottom: solid 1px #ccc; font-size: 12px;}
+.statisticChart-box .schart-mix-box table td{ height: 24px; line-height: 24px; border-top: dashed 1px #ccc; padding: 0; text-align: center;}
+.filtrate-item-box{ font-size: 12px; display: none; padding: 40px 100px;}
+.filtrate-item-box mark{ background: none; color: #ff0000; margin-bottom: 15px; display: block;}
+.filtrate-item-box .btn-group{ position: absolute; right: 100px;}
+/*各个图表不同的部分*/
+.statisticChart-box .schart-detail-list p.schart-name{ font-weight: bold;}
+.statisticChart-box .schart-detail-list p span{ margin: 0 20px;}
+.statisticChart-box .schart-table .btn-group,.locarno-content a{ float: right;}
+.statisticChart-box .schart-bg img{ max-width: 448px;}
+
+/* -------------IPC检索-----------*/
+.IPC .btn-quiry{ width: 106px!important;}
+.IPC-content{ text-align: left; border: solid 1px #ccc;}
+.IPC-content div.first{ cursor: pointer; line-height: 38px; background: #eaeaea; font-size: 14px; color: #0a76b7;}
+.IPC-content div i{ margin-left: 16px;}
+.IPC-content div.first div{ color: #333; font-size: 12px; border-bottom: solid 1px #ccc; border-top: solid 1px #ccc; background: #fff; display: none; cursor: pointer;}
+.IPC-content div.first div i{ width: 0; height: 0; display: inline-block; border-width: 6px; border-color: transparent transparent transparent #0975b7; border-style: dashed dashed dashed solid;}
+.IPC-content div.first div i.turnon{ border-color: #0975b7 transparent transparent transparent; border-style: solid dashed dashed dashed;}
+.IPC-content div span,.locarno-content span{ margin-right: 10px;}
+
+/* -------------Locarno检索-----------*/
+.Locarno .btn-quiry{ width: 148px!important;}
+.locarno-content{ text-align: left;}
+.locarno-content h4.lc-title{ font-size: 14px; margin-top: 12px; height: 38px; cursor: pointer; line-height: 38px; padding: 0 20px; color: #0a76b7; background: #eaeaea;}
+.locarno-content .lc-detail{ border: solid 1px #ccc;}
+.locarno-content .lc-matter{ display: none;}
+.locarno-content .lc-detail ul li{ border-bottom: solid 1px #ccc; line-height: 38px; padding: 0 20px 0 80px;}
+.locarno-content a{ font-size: 14px; text-decoration: underline;}
+
+
+/*------------------------------------------------这部分引用商标中的样式-----------------------------------------*/
+.modal-box .modal-content, .registerLogin-box .modal-content,.disclaimer-box .modal-content,.loginremind-box .modal-content,.pt-tijiao-box{ border: solid 3px #ccc;}
+.modal-box h4,.registerLogin-box h4,.disclaimer-box h4,.loginremind-box h4,.loginremind-box h4,.pt-tijiao-box h4{ font-size:16px!important; line-height: 36px;}
+.modal-box .modal-header,.registerLogin-box .modal-header,.disclaimer-box .modal-header,.loginremind-box .modal-header,.pt-tijiao-box .pttj-header,.statisticChart-box .modal-header{ height: 36px; line-height: 36px; color: #fff; background: #0b77b8; padding: 0 15px;}
+.modal-box .modal-header .close,.registerLogin-box .modal-header .close,.loginremind-box .modal-header .close,.pt-tijiao-box .pttj-header .close,.statisticChart-box .modal-header .close{ opacity: 1; filter:alpha(opacity=1); line-height: 36px; text-shadow: 0; }
+
+/* -------------切换效果-----------*/
+.searchR-content{ margin: 40px auto 36px auto; padding: 0 15px;}
+.searchR-content .row{ margin-bottom: 36px;}
+.searchR-content .hd{ overflow:hidden; float: left;}
+.searchR-content .hd li{ float: left; width: 90px; height: 30px; background: #919090; color: #fff; margin-right: 10px; cursor:pointer; line-height: 30px;}
+.searchR-content .hd li i{ font-size: 18px; color: #fff; margin: 0 6px; vertical-align: middle;}
+.searchR-content .hd li.on{ background: #747474;}
+.searchR-content .hd li span{ display: block; width: 20px; height: 30px;  margin-left: 10px; float: left;}
+
+/*视图模块*/
+.searchR-content .bd .shitu li .brand-img,.lib-content li .lib-img{ width: 220px; height: 140px; border: solid 1px #ebebeb; padding: 0;}
+.searchR-content .bd .shitu li .brand-img img{ max-width:218px; max-height: 138px; display: block; margin: 0 auto; vertical-align: middle; height: auto; width: auto; }
+.searchR-content .bd .shitu li .brand-detail p span{ margin-left: 15px;}
+.searchR-content .bd .shitu li .brand-detail mark,.searchR-content .bd .tuxing .txbrand-detail mark,.his-content li mark,.mix-tab .bd .note mark{ background: none; color: #0b76b8; padding: 0;}
+/*有加本模块中的标签*/
+.searchR-content .bd .shitu li .brand-detail button,.pt-pullDown button.trans-btn,.ptDetail .ptDetail-title .ptD-name .valid-btn{ width: 68px; height: 26px; margin-left: 20px; cursor: default; background: #0b76b8; color: #fff; font-size: 12px;}
+/*图形模块*/
+.searchR-content .bd .tuxing{ margin-left: -12px; margin-right: -12px;}
+.searchR-content .bd .tuxing li{ width: 270px; height: 274px; margin: 0 10px 15px 10px; border: solid 1px #ebebeb; background: #f2f2f2; padding: 4px;}
+.searchR-content .bd .tuxing li a.txbrand-img{ display: block; background: #fff;}
+.searchR-content .bd .tuxing li img{ display: block; margin: 0 auto; max-width: 260px; max-height: 138px;}
+.searchR-content .bd .tuxing .txbrand-detail{ margin-top: 30px; line-height: 12px;}
+/*列表模块*/
+.searchR-content .bd .liebiao tr{ height: 40px; border-bottom: solid 1px #ebebeb;}
+.searchR-content .bd .liebiao th,.searchR-content .bd .liebiao td{ text-align: center; margin: 0 20px; width: 180px;}
+.searchR-content .liebiao tr th,.mix-tab .bd thead{ background: #f9f9f9; border-top: solid 1px #ebebeb;}
+.searchR-content .zx-liebiao thead th.sbname{ width: 440px;}
+
+/* -------------分页效果-----------*/
+.paging{ text-align: center; padding-bottom: 40px;}
+.paging .paging-list{ text-align: center; height: 23px; line-height: 23px;}
+.paging .paging-list li,.skip ul li{ padding-left: 0;}
+.paging .paging-list li a,.paging .pform .go{ border: solid 1px #cfcfcf; padding: 2px 7px; color: #666;}
+.paging .paging-list li a:hover,.paging .pform .go:hover{ cursor: pointer;}
+.paging .paging-list .pform input{ width: 36px; height: 23px; margin-top: -2px\9; text-align: center; vertical-align: middle\9;}
+.skip{ padding-bottom: 40px;}
+.skip ul li{ height: auto; border-bottom: none;}
+
+.show{display:block;}

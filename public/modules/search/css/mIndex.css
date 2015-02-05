@@ -1,0 +1,56 @@
+/**
+ * 搜索查询样式表
+ * 创建人：王茜 
+ * 创建时间：2015-1-28
+ */
+
+/*===============================================================================
+ *********************************   查询首页       *******************************
+ ===============================================================================*/
+
+/** ----------------------------------------公共样式--------------------------------------------------**/
+.wrap{ width: 100%; font-family: "微软雅黑"; background: url("../images/index_bg.jpg") center center no-repeat; font-size: 12px;}
+.mb0{ margin-bottom: 0;}
+.pa0{ padding: 0;}
+a,a:hover{ text-decoration: none;}
+/*--------------------------header start-------------------------*/
+.header .logo{ padding-top: 20px;}
+.header .ht-corner,.header .ht-corner ul{ position: relative; text-align: right;}
+.header .ht-corner ul{ color: #ef930b; font-size: 14px; padding: 10px 15px;}
+.header .ht-corner .bg{ width: 140px; height: 40px; background: #fff; opacity: 0.5; filter: alpha(opacity=50); position: absolute; right: 15px;}
+.header .ht-corner li a{ color: #ef930b; padding-left: 5px;}
+/*--------------------------footer start-------------------------*/
+
+.footer{ color: #000; width: 100%; height: 40px; line-height: 40px; text-align: center; background: #fff; opacity: 0.5; filter: alpha(opacity=50);}
+.footer ul.navbar{ min-height: 40px; border: 0; display: inline-block;}
+.footer ul li{ padding: 0 5px 0 0;}
+.footer ul li a{ color: #000; margin-right: 10px;}
+.footer .copyRight{ display: inline-block;}
+/** ---------------------------------------私有样式------------------------------------------------ **/
+
+.content{ padding: 45px; margin: 65px auto 190px auto; position: relative;}
+.content .bg{ height: 430px; width: 1160px; background: #fff; opacity: 0.5; filter: alpha(opacity=50); position: absolute; top: 0; left: 0;}
+.content ul{ margin: -7px -9px; position: relative;}
+.content ul li{ margin: 8px 7px; height: 160px; padding: 0; font-size: 20px; font-weight: 500; text-align: center;}
+.content ul li a{ color: #fff; display: inline-block;}
+.content ul li a span{ width: 120px; height: 60px; display: block; margin: 0 auto 15px auto; background: url("../images/index_icons.png") no-repeat;}
+.content ul li.p-zzq a span{ background-position: center -90px;}
+.content ul li.s-zzq a span{ background-position: center -184px;}
+.content ul li.d-cx a span{ background-position: center -260px;}
+.content ul li.p-js a span{ background-position: center -363px;}
+.content ul li.b-jc a span{ background-position: center -462px;}
+.content ul li.b-zc a span{ background-position: center -557px;}
+.content ul li.b-sj a span{ background-position: center -649px;}
+.content ul li.big-box{ width: 346px;}
+.content ul li.big-box a{ padding: 29px 113px;}
+.content ul li.small-box{ width: 164px;}
+.content ul li.small-box a{ padding: 29px 22px;}
+.content ul li.b-cx{ background: #0b77b8;}
+.content ul li.p-zzq{ background: #e79215;}
+.content ul li.s-zzq{ background: #db6b67;}
+.content ul li.d-cx{ background: #7aac3d;}
+.content ul li.p-js{ background: #01b4df;}
+.content ul li.b-jc{ background: #96bf3f;}
+.content ul li.b-zc{ background: #d0820f;}
+.content ul li.b-sj{ background: #cc2653; position: relative;}
+.content ul li.b-sj .hover-bg{ position: absolute; width: 164px; height: 160px; display: none; background: #B69B9B; opacity: 0.9; filter: alpha(opacity=90); padding: 70px 0; font-weight: 600; font-size: 16px; color: #fff;}

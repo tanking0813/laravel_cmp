@@ -1,0 +1,18 @@
+<div ng-controller="ShopSetCtrl">
+    <!-- header -->
+    <div class="bg-light lter b-b wrapper-xs ng-scope">
+        <ul class="breadcrumb">
+            <li><a ui-sref="app.dashboard"><i class="fa fa-home"></i> 首页</a></li>
+            <li><a ui-sref="app.shop.{{ model_url }}.list">{{ model_name }}设置</a></li>
+            <li class="active">设置{{ model_name }}</li>
+        </ul>
+    </div>
+    <!-- / header -->
+    <div class="wrapper">
+        <div class="panel panel-default">
+            <dynamic-form name="newMail" class="form-horizontal m-t-lg" template="stdFormTemplate" ng-model="stdFormData">
+
+            </dynamic-form>
+        </div>
+    </div>
+</div>

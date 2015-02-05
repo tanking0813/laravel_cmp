@@ -1,0 +1,81 @@
+<div ng-controller="ShopCategoryListCtrl">
+    <div class="bg-light lter b-b wrapper-md">
+        <h1 class="m-n font-thin h3">{{ model_name }}栏目列表</h1>
+    </div>
+    <div class="wrapper-md">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <a class="btn m-b-xs w-xs btn-success" style="width:108px;" ui-sref="app.shop.{{ model_url }}.category.add">添加{{ model_name }}栏目</a>
+                <a class="btn m-b-xs w-xs btn-success" ng-click="onBack()">返回</a>
+            </div>
+            <div class="panel-body b-b b-light">
+                Search: <input id="filter" type="text" class="form-control input-sm w-sm inline m-r"/>
+            </div>
+            <ng-form name="myForm">
+            <div>
+                <table class="table m-b-none" ui-jq="footable" data-filter="#filter" data-page-size="5">
+                    <thead>
+                    <tr>
+                        <th>
+
+                        </th>
+                        <th>排序</th>
+                        <th>标题</th>
+                        <th>是否推荐</th>
+                        <th>是否显示</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="category in categories">
+                        <td><!-- <label class="i-checks m-b-none"><input type="checkbox" name="check[]" ng-model="category.id"><i></i></label> -->
+                        <input type="checkbox" checklist-model="cate.idss" checklist-value="category.id">
+                        </td>
+                        <td>{{ category.sorts }}</td>
+                        <td>{{ category.name }}</td>
+                        <td>
+                            <div ng-show="category.level"><a href="" class="active" ui-toggle-class=""><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a></div>
+                            <div ng-show="!category.level"><a href="" ui-toggle-class=""><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a></div>
+                        </td>
+                        <td>
+                            <div ng-show="category.status"><a href="" class="active" ui-toggle-class=""><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a></div>
+                            <div ng-show="!category.status"><a href="" ui-toggle-class=""><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a></div>
+                        </td>
+                        <td>
+                            <div class="btn-group dropdown">
+                                <button class="btn btn-success btn-xs dropdown-toggle {{ category.disabled }}" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href ng-click="childCate({id:category.id})">子类</a></li>
+                                    <li class="divider"></li>
+                                    <li><a ui-sref="app.shop.{{ model_url }}.category.edit({id:category.id})">修改</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href ng-click="delete({id:category.id})">删除</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>                   
+                </table>
+            </div>
+            <footer class="panel-footer">
+                <div class="row">
+                    <div class="col-sm-4 hidden-xs">
+                        <button class="btn btn-sm btn-info" ng-click="checkAll()">全选</button>
+                        <button class="btn btn-sm btn-info" ng-click="uncheckAll()">全不选</button>
+                        <select name="actions" ng-model="cate.actions" class="input-sm form-control w-sm inline v-middle">
+                            <option value="">操作</option>
+                            <option value="1">删除</option>
+                            <option value="2">推荐</option>
+                            <option value="3">不推荐</option>
+                            <option value="4">显示</option>
+                            <option value="5">不显示</option>
+                            <option value="6">首页今日推荐</option>
+                        </select>
+                        <button class="btn btn-success" type="submit" ng-click="onApply()">应用</button>
+                    </div>
+                </div>
+            </footer>
+            </ng-form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,92 @@
+/*===============================================================================
+ *********************************   公共样式       *******************************
+ ===============================================================================*/
+/**
+ * 商标超市样式表
+ * 创建人：田喜燕 
+ * 创建时间：2014-12-23
+ */
+
+/*********************公共样式**************************/
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+@-ms-viewport { width: device-width; }
+a{color: #000;}
+a:hover{color: #c40300;text-decoration: none;}
+img{vertical-align: middle;}
+.mt5{margin-top:5px;}.mt10{margin-top:10px;}.mt20{margin-top:20px;}.mt30{margin-top:30px;}.mt40{margin-top:40px;}.ml-5{margin-left: -5px;}.ml10{margin-left: 10px;}.ml20{margin-left: 20px;}.ml30{margin-left: 30px;}.ml40{margin-left: 40px;}.p{padding:10px;}.pt10{padding-top: 10px;}.pt20{padding-top: 20px;}.pl10{padding-left: 10px;}.pl20{padding-left: 20px;}.mr{margin-right: 5px;}.mr10{margin-right: 10px;}
+.fl{float: left;}
+.fr{float: right;}
+.more{font-size: 12px;color: #666;}
+.cr{color: #c40300;}
+.clear{clear: both;}
+.hd li{list-style-type: none;}
+.b-none{border:none;}
+.bg-none{background: none;}
+.pl-xs{padding-left: -15px;}
+
+/**************************头部**********************/
+/*头部*/
+.g-wrap{width:100%;margin:0 auto;overflow-x:hidden;position: relative;}
+.g-home{height:35px;width: 1190px;margin: 0 auto;line-height: 35px;font-size: 12px;overflow: hidden;}
+.g-home ul{position:relative;z-index:3;}
+#top{margin-left: -42px;}
+#top1{margin-left: 50px;}
+.g-home ul li{position:relative; display:inline;}
+.g-home .sub,.g-home .sub1{display:none;top:25px;position:absolute;background:#fff;line-height:25px; padding: 0 15px 8px; }
+.g-home .sub{width:104px;left:-10px !important;border:1px solid #ddd;border-top:none;}
+.g-home .sub1{width:100px;left:-5px !important;border:1px solid #ddd;border-top:none;}
+.g-home .sub1 img{width:10px;height:13px;margin:0 6px 0 0;vertical-align:-2px;}
+.g-home .sub li,.g-home .sub1 li{ zoom:1; }
+.g-home .sub a,.g-home .sub1 a{ display:block;color: #666;}
+.g-home .sub a:hover,.g-home .sub1 a:hover{color:#c40000;}
+/*搜索框*/
+.m-tit .li1 a{color: #c40300;}
+.m-btn{background: #c40300;padding: 0 30px;border:3px solid #c40300;}
+.m-btn a{display: block;color:#fff;}
+.g-squre{border-radius: 0;font-size: 16px;font-family: '微软雅黑';}
+.m-search-btn{border:3px solid #c40300;height: 40px;font-size: 12px;}
+.m-search-btn:focus{border:3px solid #c40300!important;box-shadow: none!important;}
+
+
+/**************************************分页**********************************/
+.pages .pagelist{margin:0;text-align: center;margin:0 auto;width: 600px;}
+.pages .pagelist li{float:left;line-height:17px;margin-right:6px;border:1px solid #ddd;font-size: 13px;background: #f5f5f5;}
+.pages .pagelist li a{float:left;padding:2px 9px 2px;color:#777;display:block;}
+.pages .pagelist li a:hover{text-decoration:none;padding:2px 9px 2px;background: #c30004;color: #fff;}
+.pages .pagelist li.thisclass,.pages .pagelist li.thisclass a,.pagebox ul li.thisclass a:hover{text-decoration:none;padding:2px 9px 2px;background: #c30004;color: #fff;}
+.pages .pageinfo{line-height:21px;padding:12px 10px 12px 16px;color:#999;}
+.pages .pageinfo strong{color:#555;font-weight:normal;margin:0px 2px;}
+.pages input,.pages select,.pages button{font:12px Verdana,Arial,Tahoma;vertical-align:middle;border: none;}
+
+/**************************************回到顶部**********************************/
+.go-top{position: fixed;bottom: 30px;right: 10px;display: none;}
+/**************************************底部*****************************************/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+footer{background: url('../images/icon/footer_bg.png') left top no-repeat;margin:30px 0 0 0;height: 655px;border-top: 5px solid #c40300;}
+.mark-foot{width: 1190px;margin: 0 auto;overflow: hidden;}
+.m-foot{border-bottom:1px solid #ddd;padding-bottom: 20px;margin:0;}
+.m-foot-list{margin-top: 5px;margin-left: 15px;margin-right: -15px;}
+.m-foot-list ul li{line-height: 23px;padding-left:40px;}
+.m-foot-list ul li a{font-size: 12px;color: #666;}
+.m-foot-list ul li a:hover{color: #c40300;}
+.m-foot-list ul .first{height:40px;line-height: 40px;}
+.m-foot-list ul .first a{font-size: 16px;font-family: '微软雅黑';color: #000;}
+.m-friend{font-size: 12px;}
+.m-friend .shou{color: #666;}
+.m-cart{background: #c40300;margin: 20px 0 30px;height: 45px;color: #fff;}
+.m-cart ul li{width: 395px;text-align: center;line-height: 40px;}
+.m-cart ul li span{font-family: '微软雅黑';padding-left: 15px;}
+.m-cart ul li .c1{font-size: 19px;}
+.m-cart ul li .c2{font-size: 15px;}
+.m-wei{text-align: right;margin-top: 11px;padding-right:30px;}
+.m-lang{margin-top: 25px;padding-left:40px; }
+.m-lang span{background: #c40300;padding:3px 18px;line-height: 30px;}
+.m-lang a{font-size: 12px;color: #fff;}
+.m-des{padding: 0 25px;border-left: 1px solid #ddd;border-right: 1px solid #ddd;}
+.m-des .p1{font-family: '微软雅黑';font-size: 16px;color: #333;}
+.m-des .p2{color: #666;font-size: 12px;line-height: 25px;}
+.m-copy{text-align: center;color: #a5a5a5;font-size: 12px;}
+.m-copyright{text-align: center;}

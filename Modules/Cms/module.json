@@ -1,0 +1,12 @@
+{
+    "name": "Cms",
+    "alias": "cms",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "priority": 0,
+    "providers": [],
+    "files": [
+        "start.php"
+    ]
+}

@@ -1,0 +1,1 @@
+<img src="{{ Uploader::find($banners->id)->path }}">

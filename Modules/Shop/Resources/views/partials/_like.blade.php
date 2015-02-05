@@ -1,0 +1,2 @@
+<p class="lap5 like-wrap"><a href="javascript:;" class="j-like"><span class="sp1">喜欢</span></a><span class="sp2 cr ml20">29999</span><span class="sp3 fr"><a href="">评价(1764)</a></span></p>
+<p class="lap6"><span class="sp4"><a href="" class="cr">商标议价</a></span><span class="sp5"><a href="javascript:;" class="j-store">收藏</a></span></p>
